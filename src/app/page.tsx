@@ -1,14 +1,17 @@
-import Header from "@/components/Header";
+
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import PageWrapper from "@/components/PageWrapper";
 
 export default function Home() {
   return (
     <>
     <div className="text-white">
-      {/* <Header /> */}
+      <PageWrapper>
           <Hero />
+      </PageWrapper>
     </div>
+    
+
         </>
   );
 }

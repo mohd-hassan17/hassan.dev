@@ -1,21 +1,18 @@
+'use client'
+
+import PageWrapper from "@/components/PageWrapper";
+import './contact-section.css';
+import ContactPage from "@/components/ContactPage";
 
 
-const ContactPage = () => {
+const Contact = () => {
     return (
         <>
-        <main className="main-grid text-white">
-            <div className="contact-container">
-            <h1 className="text-center">Contact Me</h1>
-            <form className="contact-form">
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-            </div>
-        </main>
+        <PageWrapper>
+      <ContactPage />
+        </PageWrapper>
         </>
     );
     }
 
-export default ContactPage;
+export default Contact;

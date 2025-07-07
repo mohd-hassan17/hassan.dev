@@ -1,11 +1,18 @@
+'use client'
 
+
+import PageWrapper from "@/components/PageWrapper";
+import { Showcase } from "@/components/showcase/Showcase";
 
 const ProjectPage = () => {
     return (
         <>
-        <main className="main-grid text-white">
-          Project
+        <PageWrapper>
+        <main>
+
+        <Showcase />
         </main>
+        </PageWrapper>
         </>
     );
     }

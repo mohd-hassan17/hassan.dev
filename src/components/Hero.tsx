@@ -5,49 +5,42 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Hero = () => {
 
-  
   return (
-
     <>
     {/* contact */}
     <main className="main-grid">
 {/* <!--profile--> */}
-  <Link href="#" className="profile-grid-box bg-gradient">
-      <div className="profile-box-img">
-        <div className="decorative-container">
-          <div className="floating-shapes">
-            <div className="shape shape-1"></div>
-            <div className="shape shape-2"></div>
-            <div className="shape shape-3"></div>
-          </div>
-          <div className="code-symbol">
-            <span>&lt;/&gt;</span>
-          </div>
-        </div>
-      </div>
-      <div className="profile-box-text">
-        <span>A GenAI FullStack Developer</span>
-        <h1>Mohd Hassan.</h1>
-        <p>I am a Web Developer Based on san francisco.</p>
-        <Image src="/assets/icon.svg" width={50} height={50} alt="icon"/>
-      </div>
-    </Link>
+  <Link href="#" className="profile-grid-box bg-gredient">
+
+
+<div className="profile-box-text  ">
+<h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
+<p>I'm a Full-Stack Developer specializing in building scalable, high-performance web applications using modern frameworks like Next.js, React, and more.</p>
+    <Image src="/assets/icon.svg" width={50} height={50} alt="icon"/>
+</div>
+</Link>
 
 <div className="about-project-container">
 
   <div className="marquee-grid-box bg-gredient">
     <div className="marquee">
       <div className="marquee-content">
-        <span>Latest Work And</span> Features - 
-        <span>Latest Work And</span> Features - 
-        <span>Latest Work And</span> Features - 
-        <span>Latest Work And</span> Features -
-      </div>
+       <span>Built by Mohd Hassan 🚀</span>
+      <span>Code. Design. Ship. ✨</span>
+      <span>From Idea to Launch 🔧</span>
+      <span>Modern Web Builds 💻</span>
+    </div>
+    <div className="marquee-content" aria-hidden="true">
+      <span>Built by Mohd Hassan 🚀</span>
+      <span>Code. Design. Ship. ✨</span>
+      <span>From Idea to Launch 🔧</span>
+      <span>Modern Web Builds 💻</span>
+    </div>
     </div>
   </div>
 
   {/* about */}
-<Link href={"#"} className="box-grid about-grid-box bg-gredient">
+<Link href={"/about"} className="box-grid about-grid-box bg-gredient">
 <Image src="/assets/sign.png" alt="about" className="grid-box-img" width={200} height={100} />
 <div className="grid-text-container">
   <div className="grid-text">
@@ -66,7 +59,7 @@ const Hero = () => {
 
 {/* work */}
 
-<Link href={"#"} className="box-grid bg-gradient">
+<Link href={"/projects"} className="box-grid bg-gradient">
 <Image src="/assets/my-works.png" alt="about" className="grid-box-img" width={200} height={100} />
 <div className="grid-text-container">
   <div className="grid-text">
@@ -84,14 +77,14 @@ Project  </strong>
 </div>
 
 {/* blog */}
-<Link href={"#"} className="box-grid bg-gredient blog-grid">
+<Link href={"/blog"} className="box-grid bg-gredient blog-grid">
 <Image src="/assets/gfonts.png" alt="about" className="grid-box-img" width={200} height={100} />
 <div className="grid-text-container">
   <div className="grid-text">
   <span>
     My Blog 
   </span>
-  <strong>gfonts</strong>
+  <strong>Tech Thoughts</strong>
   </div>
   <div className="grid-icon">
     <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
@@ -101,7 +94,7 @@ Project  </strong>
 
 {/* services */}
 
-<Link href={"#"} className="box-grid bg-gredient service-grid">  
+<Link href={"/service"} className="box-grid bg-gredient service-grid">  
 <div className="service-icon">
 <FontAwesomeIcon icon={['fas', 'code']} className="text-[1.8rem]" />
 <FontAwesomeIcon icon={['fas', 'gears']} className="text-[1.8rem]" />
@@ -124,15 +117,15 @@ Project  </strong>
 
 <div className="social-grid bg-gredient box-grid">
   <div className="social-container bg-gradient">
-    <Link href="https://www.linkedin.com/in/mohd-hassan17/"  target="_blank" className="social-link">
+    
+      <Link href="https://github.com/mohd-hassan17"  target="_blank" className="social-link">
         <FontAwesomeIcon icon={['fab', 'github']} />
       </Link>
-      <Link href="https://github.com/mohd-hassan17"  target="_blank" className="social-link">
+          <Link href="https://www.linkedin.com/in/mohd-hassan17/"  target="_blank" className="social-link">
+
         <FontAwesomeIcon icon={['fab', 'linkedin']} />
       </Link>
-      {/* <Link href="#" className="social-link">
-        <FontAwesomeIcon icon={['fab', 'twitter']} />
-      </Link> */}
+     
   </div>
 
   <div className="grid-text-container">
@@ -150,32 +143,27 @@ Project  </strong>
 
 <div className="project-count-grid box-grid bg-gredient">
 <div className="grid-project-box bg-gredient">
-<span>07</span>
-<strong>Years Experience</strong>
+ <span>+15</span>
+  <strong>Projects Built</strong>
 </div>
 <div className="grid-project-box bg-gredient">
-<span>+125</span>
-<strong>Client WorldWide</strong>
+<span>+8</span>
+  <strong>Tech Stacks Learned</strong>
 </div>
 <div className="grid-project-box bg-gredient">
-<span>+210</span>
-<strong>Total Projects</strong>
+<span>+50</span>
+  <strong>GitHub Commits</strong>
 </div>
 </div>
 
 {/* contact */}
-<Link href="#" className="contact-grid bg-gredient box-grid">
+<Link href="/contact" className="contact-grid bg-gredient box-grid">
   <Image className="contact-grid-top-icon" src="/assets/icon2.png" alt="arrow" width={50} height={50} />
   <h2>Let's <br />  work  <span> together.</span></h2>
       <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
 </Link>
-
 </main>
-
-{/* footer */}
-
-
-
+{/* <ContactSection /> */}
 </>
 
   );

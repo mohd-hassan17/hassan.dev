@@ -1,7 +1,4 @@
-// components/Marquee.tsx
 'use client';
-
-// import './marquee.css';
 
 export default function Marquee() {
   return (
