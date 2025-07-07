@@ -42,7 +42,7 @@ list-style: none;
 }
 body{
 /* background-color: var(--gradient-end); */
- background: rgb(17, 17, 17);
+ background: var(--gradient-end);
 color: var(-text-color);
 }
 
