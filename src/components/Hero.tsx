@@ -15,7 +15,7 @@ const Hero = () => {
 
 <div className="profile-box-text  ">
 <h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
-<p>I'm a Full-Stack Developer specializing in building scalable, high-performance web applications using modern frameworks like Next.js, React, and more.</p>
+<p>{`I'm a Full-Stack Developer specializing in building scalable, high-performance web applications using modern frameworks like Next.js, React, and more.`}</p>
     <Image src="/assets/icon.svg" width={50} height={50} alt="icon"/>
 </div>
 </Link>
@@ -159,7 +159,7 @@ Project  </strong>
 {/* contact */}
 <Link href="/contact" className="contact-grid bg-gredient box-grid">
   <Image className="contact-grid-top-icon" src="/assets/icon2.png" alt="arrow" width={50} height={50} />
-  <h2>Let's <br />  work  <span> together.</span></h2>
+  <h2>{`Let's`} <br />  work  <span> together.</span></h2>
       <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
 </Link>
 </main>

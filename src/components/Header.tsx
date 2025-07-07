@@ -2,18 +2,24 @@
 
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { usePathname } from 'next/navigation'; // ✅ add this
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Header = () => {
+
+  const handleUnavailableCV = (e: React.MouseEvent) => {
+    e.preventDefault(); // prevent actual download
+    toast.error('CV is currently not available');
+  };
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState('/');
 
-const pathname = usePathname();
-const isActive = (path: string) => pathname === path;
+  const pathname = usePathname();
+  const isActive = (path: string) => pathname === path;
 
-  const handleLinkClick = (path: string) => {
+  const handleLinkClick = () => {
     setIsMenuOpen(false); // Close mobile menu when link is clicked
   };
 
@@ -25,56 +31,56 @@ const isActive = (path: string) => pathname === path;
     <header className="header">
       <nav className="navigation">
         <Link href={'/'}>
-
-        <div className="logo">{ `{ Hassan }` }</div>
+          <div className="logo">{`{ Hassan }`}</div>
         </Link>
-        
+
         {/* Desktop Menu */}
         <ul className="menu desktop-menu">
           <li>
-            <a 
-              href="/" 
+            <Link
+              href="/"
               className={isActive('/') ? 'active' : ''}
-              onClick={() => handleLinkClick('/')}
+              onClick={handleLinkClick}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a 
-              href="/about" 
+            <Link
+              href="/about"
               className={isActive('/about') ? 'active' : ''}
-              onClick={() => handleLinkClick('/about')}
+              onClick={handleLinkClick}
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a 
-              href="/projects" 
+            <Link
+              href="/projects"
               className={isActive('/projects') ? 'active' : ''}
-              onClick={() => handleLinkClick('/projects')}
+              onClick={handleLinkClick}
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a 
-              href="/contact" 
+            <Link
+              href="/contact"
               className={isActive('/contact') ? 'active' : ''}
-              onClick={() => handleLinkClick('/contact')}
+              onClick={handleLinkClick}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
         {/* Desktop CV Button */}
         <div className="nav-buttons desktop-cv">
-          <a 
-            href="/Resume.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href="/Resume.pdf"
+            // target="_blank"
+             onClick={handleUnavailableCV}
+            rel="noopener noreferrer"
             className="nav-contact"
           >
             View CV
@@ -90,46 +96,45 @@ const isActive = (path: string) => pathname === path;
         <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
           <ul className="mobile-menu-items">
             <li>
-              <a 
-                href="/" 
+              <Link
+                href="/"
                 className={isActive('/') ? 'active' : ''}
-                onClick={() => handleLinkClick('/')}
+                onClick={handleLinkClick}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
-                href="/about" 
+              <Link
+                href="/about"
                 className={isActive('/about') ? 'active' : ''}
-                onClick={() => handleLinkClick('/about')}
+                onClick={handleLinkClick}
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
-                href="/projects" 
+              <Link
+                href="/projects"
                 className={isActive('/projects') ? 'active' : ''}
-                onClick={() => handleLinkClick('/projects')}
+                onClick={handleLinkClick}
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className={isActive('/contact') ? 'active' : ''}
-                onClick={() => handleLinkClick('/contact')}
+                onClick={handleLinkClick}
               >
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="mobile-cv">
-              <a 
-                href="/Resume.pdf" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                // href="/Resume.pdf"
+                onClick={handleUnavailableCV}
                 className="nav-contact"
               >
                 View CV
@@ -137,8 +142,17 @@ const isActive = (path: string) => pathname === path;
             </li>
           </ul>
         </div>
+     
       </nav>
-
+         <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={true}
+        closeOnClick
+        // pauseOnHover
+        theme="dark"
+      />
       <style jsx>{`
         :root {
           --text-color:rgb(255, 255, 255);
@@ -194,7 +208,7 @@ const isActive = (path: string) => pathname === path;
           list-style: none;
         }
 
-        .menu li a {
+        .menu li :global(a) {
           margin: 0px 25px;
           color: var(--text-color);
           opacity: 0.6;
@@ -203,13 +217,13 @@ const isActive = (path: string) => pathname === path;
           position: relative;
         }
 
-        .menu li a:hover,
-        .menu li a.active {
+        .menu li :global(a):hover,
+        .menu li :global(a).active {
           opacity: 1;
           color: var(--text-color);
         }
 
-        .menu li a.active::after {
+        .menu li :global(a).active::after {
           content: '';
           position: absolute;
           bottom: -5px;
@@ -281,7 +295,7 @@ const isActive = (path: string) => pathname === path;
           text-align: center;
         }
 
-        .mobile-menu-items li a {
+        .mobile-menu-items li :global(a) {
           color: var(--text-color);
           font-size: 1.5rem;
           text-decoration: none;
@@ -291,8 +305,8 @@ const isActive = (path: string) => pathname === path;
           padding: 1rem;
         }
 
-        .mobile-menu-items li a:hover,
-        .mobile-menu-items li a.active {
+        .mobile-menu-items li :global(a):hover,
+        .mobile-menu-items li :global(a).active {
           opacity: 1;
           color: text-white;
         }
@@ -340,7 +354,7 @@ const isActive = (path: string) => pathname === path;
             font-size: 1.3rem;
           }
 
-          .mobile-menu-items li a {
+          .mobile-menu-items li :global(a) {
             font-size: 1.3rem;
           }
 
@@ -356,7 +370,7 @@ const isActive = (path: string) => pathname === path;
             width: 95%;
           }
 
-          .menu li a {
+          .menu li :global(a) {
             margin: 0px 15px;
           }
 

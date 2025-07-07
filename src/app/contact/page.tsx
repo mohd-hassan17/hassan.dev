@@ -9,7 +9,9 @@ const Contact = () => {
     return (
         <>
         <PageWrapper>
+
       <ContactPage />
+      
         </PageWrapper>
         </>
     );

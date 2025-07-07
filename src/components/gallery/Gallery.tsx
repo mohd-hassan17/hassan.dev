@@ -83,12 +83,7 @@ const projects = [
         events.
         <br />
         <br />
-        🥐 Construite avec Next.js 14, cette application se présente comme une
-        plateforme complète et évolutive pour la gestion des événements. Elle
-        agit comme un hub mettant en lumière une diversité d'événements à
-        travers le monde. Intégrant un traitement de paiement fluide via Stripe,
-        elle vous permet d'acheter des billets pour n'importe quel événement ou
-        même de créer et gérer vos propres événements.
+        🥐 
       </>
     ),
   },
@@ -108,12 +103,7 @@ const projects = [
         generative filling, and background removal.
         <br />
         <br />
-        🥐 Une plateforme SaaS d'images IA qui excelle dans les capacités de
-        traitement d'images, intègre une infrastructure de paiement sécurisée,
-        offre des fonctionnalités avancées de recherche d'images, et prend en
-        charge plusieurs fonctionnalités IA, notamment la restauration d'images,
-        la recoloration, la suppression d'objets, le remplissage génératif et la
-        suppression d'arrière-plan.
+        🥐 
       </>
     ),
   },
@@ -133,11 +123,7 @@ const projects = [
         experience.
         <br />
         <br />
-        🥐 Développé avec Next.js et exploitant ses capacités de rendu côté
-        serveur, ce site web de présentation de voitures propose différents
-        types de véhicules, offrant des informations détaillées dans un format
-        bien conçu avec un support avancé de filtrage et de pagination pour une
-        expérience utilisateur améliorée.
+        🥐 
       </>
     ),
   },
@@ -156,11 +142,7 @@ const projects = [
         deep comments, notifications, real-time search, and more.
         <br />
         <br />
-        🥐 Clone de Threads en full-stack réalisé avec Next.js 14+. Ce projet
-        comprend une interaction utilisateur approfondie, des fonctionnalités de
-        gestion communautaire, une implémentation technique robuste, ainsi
-        qu'une gamme de fonctionnalités telles que des commentaires imbriqués,
-        des notifications, une recherche en temps réel, et bien plus encore.
+        🥐 
       </>
     ),
   },
@@ -181,13 +163,7 @@ const projects = [
         personalized user experience.
         <br />
         <br />
-        🥐 Une plateforme SaaS d'IA qui permet aux utilisateurs de
-        créer, découvrir et écouter des podcasts avec des fonctionnalités
-        avancées telles que la conversion texte-en-audio utilisant une IA
-        multi-voix alimentée par l'API OpenAI, la génération d'images miniatures
-        de podcasts et une lecture fluide. La plateforme inclut une
-        authentification sécurisée utilisant Clerk, garantissant une expérience
-        utilisateur sûre et personnalisée.
+        🥐 
       </>
     ),
   },
@@ -207,11 +183,7 @@ const projects = [
         participants.
         <br />
         <br />
-        🥐 Construit avec les dernières versions de Next.js et TypeScript, ce
-        projet réplique Zoom, un outil populaire de visioconférence. Il permet
-        aux utilisateurs de se connecter en toute sécurité, de créer des
-        réunions et d'accéder à diverses fonctionnalités de réunion telles que
-        l'enregistrement, le partage d'écran et la gestion des participants.
+        🥐 
       </>
     ),
   },
@@ -230,11 +202,7 @@ const projects = [
         their finances altogether.
         <br />
         <br />
-        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière
-        qui se connecte à plusieurs comptes bancaires, affiche les transactions
-        en temps réel, permet aux utilisateurs de transférer de l'argent à
-        d'autres utilisateurs de la plateforme et gère leurs finances de manière
-        globale.
+        🥐 
       </>
     ),
   },
@@ -253,19 +221,11 @@ const projects = [
         TailwindCSS, it provides a scalable foundation for web apps. It includes
         tools like Axios for HTTP requests, Zod for validation, Mailgun for
         email delivery, and DaisyUI for UI components. With React 18 and Next.js
-        14, it's ideal for building sales pages, e-commerce sites, or apps with
+        14, it&apos;s ideal for building sales pages, e-commerce sites, or apps with
         user and payment management.
         <br />
         <br />
-        🥐 Il s'agit d'un projet de démarrage Next.js conçu pour un
-        développement rapide, avec NextAuth pour l'authentification, MongoDB
-        pour la gestion des données et Stripe pour l'intégration des paiements.
-        Construit avec React, TypeScript et TailwindCSS, il offre une base
-        évolutive pour les applications web. Il inclut des outils comme Axios
-        pour les requêtes HTTP, Zod pour la validation, Mailgun pour la gestion
-        des e-mails et DaisyUI pour les composants UI. Avec React 18 et Next.js
-        14, il est idéal pour créer des pages de vente, des sites e-commerce ou
-        des applications avec gestion des utilisateurs et des paiements.
+        🥐 
       </>
     ),
   },
@@ -278,19 +238,14 @@ const projects = [
     tech: ["Next", "Bright Data", "MongoDB", "TS"],
     modal: (
       <>
-        🍵 Developed using Next.js and Bright Data's webunlocker, this
+        🍵 Developed using Next.js and Bright Datas webunlocker, this
         e-commerce product scraping site is designed to assist users in making
         informed decisions. It notifies users when a product drops in price and
         helps competitors by alerting them when the product is out of stock, all
         managed through cron jobs.
         <br />
         <br />
-        🥐 Développé avec Next.js et le webunlocker de Bright Data, ce site de
-        scraping de produits e-commerce est conçu pour aider les utilisateurs à
-        prendre des décisions éclairées. Il informe les utilisateurs lorsque le
-        prix d'un produit baisse et aide les concurrents en les alertant lorsque
-        le produit est en rupture de stock, le tout géré à travers des tâches
-        cron.
+        🥐 
       </>
     ),
   },
@@ -309,11 +264,7 @@ const projects = [
         design and responsive interface for optimal user experience.
         <br />
         <br />
-        🥐 Application Next.js conçue pour le partage prompts entre
-        utilisateurs. Découvrez, créez et partagez des prompts facilement grâce
-        à l'intégration MongoDB et à l'authentification sécurisée via NextAuth.
-        Profitez d'un design moderne et d'une interface responsive pour une
-        expérience utilisateur optimale.
+        🥐 
       </>
     ),
   },
@@ -331,11 +282,7 @@ const projects = [
         drawing designs (shapes, image upload) on the canvas using fabric.js.
         <br />
         <br />
-        🥐 Un clone minimaliste de Figma conçu pour illustrer l'intégration de
-        fonctionnalités réalistes telles que la collaboration en temps réel avec
-        chat de curseur, commentaires, réactions, ainsi que la création de
-        designs (formes, téléchargement d'images) sur le canevas à l'aide de
-        fabric.js.
+        🥐 
       </>
     ),
   },
@@ -354,11 +301,7 @@ const projects = [
         Motion.
         <br />
         <br />
-        🥐 Explorez vos animes préférés facilement avec cette application
-        Next.js alimentée par l'API Shikimori. Décrouvrez de nouvelles séries,
-        profitez d'un défilement fluide à travers une vaste base de données
-        d'animes et d'animations modernes avec Framer Motion.
-      </>
+        </>
     ),
   },
   //! P2 -> NEXT.JS -> UI/X ONLY
@@ -372,20 +315,14 @@ const projects = [
     modal: (
       <>
         🍵 This portfolio is a showcase of my skills, built with React and
-        powered by Next.js. I've leveraged TypeScript to ensure robust code
+        powered by Next.js. Ive leveraged TypeScript to ensure robust code
         quality and maintainability. A styling system crafted with Sass brings a
         polished visual identity to life. And, with Framer Motion and Anime.js,
-        I've added a touch of dynamism with smooth animations and transitions,
+        Ive added a touch of dynamism with smooth animations and transitions,
         creating an engaging user experience.
         <br />
         <br />
-        🥐 Ce portfolio est une vitrine de mes compétences, conçu avec React et
-        propulsé par Next.js. J'ai mis à profit TypeScript pour assurer une
-        qualité de code robuste et maintenable. Un système de styling conçu avec
-        Sass donne vie à une identité visuelle soignée. Et, avec Framer Motion
-        et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et
-        des transitions fluides, créant une expérience utilisateur engageante.
-      </>
+        </>
     ),
   },
   {
@@ -399,14 +336,11 @@ const projects = [
       <>
         🍵 Built with Next.js for handling the user interface, Three.js for
         rendering 3D elements, Framer motion for beautiful animations, and
-        styled with TailwindCSS, this portfolio demonstrates the developer's
+        styled with TailwindCSS, this portfolio demonstrates the developers
         skills in a unique manner that creates a lasting impact.
         <br />
         <br />
-        🥐 Conçu avec Next.js pour l'interface utilisateur, Three.js pour le
-        rendu 3D, Framer Motion pour des animations élégantes, et stylisé avec
-        TailwindCSS, ce portfolio illustre les compétences du développeur de
-        manière moderne et marquante.
+      
       </>
     ),
   },
@@ -432,16 +366,7 @@ const projects = [
         visually appealing landing page tailored for travel enthusiasts.
         <br />
         <br />
-        🥐 Page d'accueil au design moderne pour un site de voyage, développée
-        avec Next.js, TailwindCSS et TypeScript. Ce projet utilise Next.js pour
-        le rendu côté serveur (SSR) et la génération de sites statiques (SSG),
-        optimisant les performances et le SEO avec des fonctionnalités comme le
-        découpage automatique du code et les routes API. TailwindCSS facilite le
-        développement rapide de l'interface utilisateur grâce à ses classes
-        utilitaires, permettant un design personnalisé et cohérent. TypeScript
-        améliore la robustesse et la maintenabilité du code en offrant une
-        typage statique, ce qui permet de détecter les erreurs tôt et d'assurer
-        la stabilité de l'application.
+        
       </>
     ),
   },
@@ -463,11 +388,7 @@ const projects = [
         environments.
         <br />
         <br />
-        🥐 Applications internes, panneaux d'administration, tableaux de bord et
-        applications B2B basés sur React, conçus pour offrir une grande
-        flexibilité. Développé selon les meilleures pratiques, favorisant la
-        flexibilité, minimisant la dette technique et favorisant l'alignement
-        d'équipe, idéal pour les environnements dynamiques.
+       
       </>
     ),
   },
@@ -485,10 +406,7 @@ const projects = [
         using React.js, Three.js, and OpenAI.
         <br />
         <br />
-        🥐 Créez votre propre style avec cette application de personnalisation
-        3D. Choisissez vos couleurs, ajoutez des logos et essayez des designs IA
-        pour rendre votre style virtuel unique. Réalisée avec React.js, Three.js
-        et OpenAI.
+      
       </>
     ),
   },
@@ -509,14 +427,7 @@ const projects = [
         optimize data fetching and management.
         <br />
         <br />
-        🥐 Résumez n'importe quel article en un clic grâce au puissant modèle
-        OpenAI. Cette application web offre une interface moderne et conviviale,
-        permettant aux utilisateurs d'entrer des URL d'articles pour obtenir des
-        résumés concis générés par l'IA. Les résumés sont enregistrés localement
-        pour une gestion facile de l'historique, et une fonction de copie dans
-        le presse-papiers facilite le partage. Les requêtes API avancées de RTK
-        Query optimisent la récupération et la gestion des données.
-      </>
+     </>
     ),
   },
   {
@@ -534,11 +445,6 @@ const projects = [
         for a smooth user experience.
         <br />
         <br />
-        🥐 Explorez les réseaux sociaux avec cette plateforme conviviale, au
-        design élégant et riche en fonctionnalités. Créez et découvrez des
-        publications facilement, et bénéficiez d'un système d'authentification
-        sécurisé ainsi que d'une récupération rapide des données grâce à React
-        Query, pour une expérience utilisateur fluide et agréable.
       </>
     ),
   },
@@ -562,17 +468,7 @@ const projects = [
         dynamic interactions.
         <br />
         <br />
-        🥐 Une application de réseau social fullstack construite avec le stack
-        MERN (React, Node.js, Express, MongoDB) dans le cadre du projet final du
-        cours de Développeur Web à OpenClassrooms. Ce projet consiste à créer
-        une plateforme de réseau social complète, avec des opérations CRUD
-        robustes pour les utilisateurs, les publications et les comptes
-        administrateurs. Le backend intègre des mesures de sécurité avancées
-        telles que Helmet, Crypto-js, Bcrypt, et plus encore. Il démontre des
-        compétences complètes en développement frontend et backend, incluant
-        l'authentification des utilisateurs, la gestion de la base de données,
-        et des interactions dynamiques.
-      </>
+    </>
     ),
   },
   {
@@ -592,15 +488,7 @@ const projects = [
         for easy navigation and provides detailed information for each exercise.
         <br />
         <br />
-        🥐 Application de fitness construite avec React.js qui offre une suite
-        complète de fonctionnalités pour améliorer votre expérience
-        d'entraînement. Grâce à la possibilité de choisir des catégories
-        d'exercices et des groupes musculaires spécifiques, les utilisateurs
-        peuvent parcourir une bibliothèque de plus de mille exercices, chacun
-        accompagné d'exemples pratiques. L'application prend en charge la
-        pagination pour une navigation facile et fournit des informations
-        détaillées pour chaque exercice.
-      </>
+       </>
     ),
   },
   {
@@ -618,13 +506,7 @@ const projects = [
         and Chart.js for dynamic data visualization.
         <br />
         <br />
-        🥐 CryptoDB est une application React qui intègre RapidAPI pour des
-        fonctionnalités telles que la recherche d'actualités Bing et le
-        classement des cryptomonnaies. Elle utilise Redux Toolkit pour une
-        gestion efficace de l'état, Ant Design pour des composants d'interface
-        utilisateur élégants, et Chart.js pour la visualisation dynamique des
-        données.
-      </>
+        </>
     ),
   },
   {
@@ -642,11 +524,7 @@ const projects = [
         effectively.
         <br />
         <br />
-        🥐 Application de gestion de budget construite avec React, mettant
-        l'accent sur les opérations CRUD (Create, Read, Update, Delete). Elle
-        couvre des concepts intermédiaires et débutants de React, démontrant
-        comment gérer efficacement les données budgétaires.
-      </>
+       </>
     ),
   },
   {
@@ -666,14 +544,7 @@ const projects = [
         optimize data fetching and management.
         <br />
         <br />
-        🥐 Résumez n'importe quel article en un clic grâce au puissant modèle
-        OpenAI. Cette application web offre une interface moderne et conviviale,
-        permettant aux utilisateurs d'entrer des URL d'articles pour obtenir des
-        résumés concis générés par l'IA. Les résumés sont enregistrés localement
-        pour une gestion facile de l'historique, et une fonction de copie dans
-        le presse-papiers facilite le partage. Les requêtes API avancées de RTK
-        Query optimisent la récupération et la gestion des données.
-      </>
+       </>
     ),
   },
 
@@ -687,16 +558,12 @@ const projects = [
     tech: ["React", "GSAP", "Threejs", "Tailwind"],
     modal: (
       <>
-        🍵 This is a clone of Apple's iPhone 15 Pro website using React.js and
+        🍵 This is a clone of Apples iPhone 15 Pro website using React.js and
         TailwindCSS. It highlights the effective use of GSAP (Greensock
         Animations) and Three.js for displaying iPhone 15 Pro models in various
         colors and shapes.
         <br />
         <br />
-        🥐 Ceci est un clone du site web de l'iPhone 15 Pro d'Apple utilisant
-        React.js et TailwindCSS. Il met en avant l'utilisation efficace de GSAP
-        (Greensock Animations) et de Three.js pour afficher les modèles d'iPhone
-        15 Pro dans diverses couleurs et formes.
       </>
     ),
   },
@@ -715,11 +582,6 @@ const projects = [
         a fox will dynamically react as you fill out the fields!
         <br />
         <br />
-        🥐 Ce site web 3D, construit avec React et propulsé par Three.js,
-        propose des éléments interactifs captivants. Naviguez à bord d'un petit
-        avion pour explorer une île flottante et découvrir diverses
-        informations. Sur la page de contact, un renard réagira dynamiquement à
-        mesure que vous remplirez les champs !
       </>
     ),
   },
@@ -740,13 +602,6 @@ const projects = [
         queries, optimizing display across all devices.
         <br />
         <br />
-        🥐 Cette page d'accueil présente un design contemporain développé avec
-        React, mettant l'accent sur l'utilisation de composants fonctionnels
-        réutilisables et une structure de fichiers bien organisée. Elle en avant
-        la maîtrise des propriétés CSS fondamentales telles que flex pour des
-        designs de mise en page flexibles. Le design responsive est assuré grâce
-        à des media queries soigneusement implémentées, optimisant l'affichage
-        sur tous les appareils.
       </>
     ),
   },
@@ -768,15 +623,7 @@ const projects = [
         all devices.
         <br />
         <br />
-        🥐 Cette page d'accueil présente un design contemporain développé avec
-        React, mettant l'accent sur l'utilisation de composants fonctionnels
-        réutilisables et une structure de fichiers bien organisée. Elle intègre
-        Tailwind CSS pour un style simplifié, mettant en avant la maîtrise des
-        propriétés CSS fondamentales telles que flex pour des designs de mise en
-        page flexibles. Le design responsive est assuré grâce à des media
-        queries soigneusement implémentées, optimisant l'affichage sur tous les
-        appareils.
-      </>
+       </>
     ),
   },
   {
@@ -796,13 +643,6 @@ const projects = [
         providing inspiration for modern applications and websites.
         <br />
         <br />
-        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et
-        Tailwind CSS, qui incarne les principes actuels du design. Il présente
-        des effets de parallaxe fluides et des mises en page bento box, offrant
-        une interface élégante adaptée aussi bien aux ordinateurs de bureau
-        qu'aux appareils mobiles. Avec des animations soignées et une expérience
-        utilisateur exceptionnelle, Brainwave se distingue comme une source
-        d'inspiration pour les applications et sites web contemporains.
       </>
     ),
   },
@@ -823,13 +663,6 @@ const projects = [
         queries, the page ensures responsiveness across all devices.
         <br />
         <br />
-        🥐 Cette page d'accueil arbore un design moderne réalisé avec React,
-        exploitant des composants fonctionnels pour leur réutilisabilité. Elle
-        intègre des propriétés CSS essentielles pour maîtriser Flexbox et Grid,
-        respecte le modèle BEM de CSS, et propose des animations subtiles ainsi
-        que des dégradés complexes. Grâce à des media queries judicieusement
-        placées, la page garantit une réactivité optimale sur tous les
-        appareils.
       </>
     ),
   },
@@ -848,11 +681,7 @@ const projects = [
         create a visually engaging and interactive site.
         <br />
         <br />
-        🥐 Ce projet est un test et ma première expérience avec le framework
-        Astro. Il présente un concept simple de portfolio pour un artiste
-        graphique. J'ai utilisé React, TypeScript, Astro, Tailwind CSS et Framer
-        Motion pour créer un site visuellement attrayant et interactif.
-      </>
+       </>
     ),
   },
   {
@@ -866,22 +695,14 @@ const projects = [
       <>
         🍵 Modern Nike landing page designed with React and Tailwind CSS,
         featuring a visually appealing hero section, popular products showcase,
-        unique "About Us" section, special offers display, testimonials, and a
+        unique About Us section, special offers display, testimonials, and a
         newsletter integration. This project maximizes Tailwind CSS with best
         practices, theming techniques, and JavaScript-like tasks. The entire
-        site is mobile-responsive, highlighting Tailwind's flexibility and
+        site is mobile-responsive, highlighting Tailwind flexibility and
         design capabilities.
         <br />
         <br />
-        🥐 Page d'accueil moderne pour Nike, conçue avec React et Tailwind CSS.
-        Ce projet comprend une section héro captivante, une présentation des
-        produits populaires, une section "À propos" originale, des offres
-        spéciales, des témoignages, et une intégration de la newsletter. Il
-        optimise l'utilisation de Tailwind CSS avec des bonnes pratiques et des
-        effets interactifs habituellement réalisés avec JavaScript. Le site est
-        entièrement responsive, mettant en valeur la flexibilité et les
-        capacités de design de Tailwind.
-      </>
+       </>
     ),
   },
   {
@@ -900,12 +721,7 @@ const projects = [
         appealing user experience.
         <br />
         <br />
-        🥐 Design pour un réseau social inspiré par l'esthétique vibrante de la
-        culture Kpop. Développé avec React, il intègre une palette de couleurs
-        "girly". Utilisant la bibliothèque Mantine et complété par Unicons,
-        l'objectif est de fournir une expérience utilisateur engageante et
-        visuellement attrayante.
-      </>
+       </>
     ),
   },
   {
@@ -926,14 +742,7 @@ const projects = [
         contact using the form.
         <br />
         <br />
-        🥐 Un portfolio moderne et minimaliste réalisé avec React et Vite. Le
-        site intègre des animations fluides grâce à Framer Motion, un carrousel
-        réactif implémenté avec la bibliothèque Swiper, ainsi qu'un effet de
-        machine à écrire qui ajoute une touche dynamique aux éléments textuels.
-        Le filtrage ainsi que le tri dynamiques améliorent l'utilisation du
-        portfolio. Pour la communication, EmailJS est intégré pour permettre un
-        contact direct via le formulaire.
-      </>
+       </>
     ),
   },
   {
@@ -953,13 +762,7 @@ const projects = [
         online presence.
         <br />
         <br />
-        🥐 Portfolio réalisé avec React pour des composants UI dynamiques et
-        Sanity comme CMS headless pour une gestion de contenu flexible. Le
-        projet utilise également Framer Motion pour des animations fluides et
-        Sass pour des styles maintenables. Ce portfolio illustre mes compétences
-        dans l’utilisation des technologies web modernes pour créer une présence
-        en ligne dynamique et visuellement attrayante.
-      </>
+       </>
     ),
   },
   //! P5 -> MOBILE
@@ -978,12 +781,7 @@ const projects = [
         enabling seamless sharing of videos within the community.
         <br />
         <br />
-        🥐 Construite avec React Native pour une expérience utilisateur fluide,
-        "Animatable" pour des animations captivantes, et intégrée aux systèmes
-        backend fiables d'Appwrite, cette application présente un design moderne
-        et des fonctionnalités facilitant le partage de vidéos au sein d'une
-        communauté.
-      </>
+        </>
     ),
   },
   {
@@ -999,15 +797,9 @@ const projects = [
         involves building a feature-rich job seeker app with a strong focus on
         UI/UX, external data integration, and best practices. The app leverages
         RapidAPI to efficiently help users find job opportunities.
+        
         <br />
-        <br />
-        🥐 Une expérience pratique du développement en React Native, ce projet
-        consiste à créer une application de recherche d'emploi riche en
-        fonctionnalités avec un fort accent sur l'UI/UX, l'intégration de
-        données externes et les meilleures pratiques. L'application utilise
-        RapidAPI pour aider efficacement les utilisateurs à trouver des
-        opportunités d'emploi.
-      </>
+       </>
     ),
   },
 
@@ -1028,12 +820,7 @@ const projects = [
         contemporary aesthetic.
         <br />
         <br />
-        🥐 Page d'accueil avec des animations modernes au défilement, réalisées
-        uniquement en HTML, CSS et JavaScrip, sans utilisation de bibliothèque.
-        Ce design offre des animations fluides et captivantes qui se déclenchent
-        lors du défilement, optimisant l'interaction utilisateur et l'attrait
-        visuel avec une esthétique moderne et épurée.
-      </>
+       </>
     ),
   },
   {
@@ -1050,11 +837,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique d'accessoires, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1071,11 +854,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de vêtements, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1092,11 +871,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une marque de café, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1113,11 +888,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une marque de café, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1134,10 +905,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une marque de café, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
       </>
     ),
   },
@@ -1155,10 +922,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
+         </>
     ),
   },
   {
@@ -1175,9 +939,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
       </>
     ),
   },
@@ -1195,9 +956,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
       </>
     ),
   },
@@ -1215,10 +973,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour un service de livraison, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
       </>
     ),
   },
@@ -1236,11 +990,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de voitures électriques, mettant en
-        avant une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1257,11 +1007,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de jardinage, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1278,10 +1024,7 @@ const projects = [
         animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
+        </>
     ),
   },
   {
@@ -1298,10 +1041,7 @@ const projects = [
         animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
+        </>
     ),
   },
   {
@@ -1318,10 +1058,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de casques audio, mettant en avant
-        une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
       </>
     ),
   },
@@ -1339,11 +1075,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une marque de jus, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
 
@@ -1361,11 +1093,7 @@ const projects = [
         animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de lampes, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1382,11 +1110,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une agence immobilière, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+        </>
     ),
   },
   {
@@ -1403,11 +1127,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de sneakers, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1426,13 +1146,7 @@ const projects = [
         to ensure a dynamic and engaging user experience across all devices.
         <br />
         <br />
-        🥐 Un site web responsive sur le thème de l'Espace construit avec HTML,
-        CSS et JavaScript, présentant une page de destination moderne avec des
-        éléments interactifs. Ce projet met en avant les principes de design
-        responsive, l'utilisation efficace des media queries pour un style
-        adaptatif, et des interactions JavaScript pour garantir une expérience
-        utilisateur dynamique et engageante sur tous les appareils.
-      </>
+        </>
     ),
   },
 
@@ -1450,11 +1164,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour un restaurant de sushi, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+        </>
     ),
   },
 
@@ -1472,11 +1182,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour un restaurant de sushi, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1492,11 +1198,7 @@ const projects = [
         minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
         with smooth animations powered by ScrollReveal.js library.
         <br />
-        <br />
-        🥐 Page d'accueil pour un restaurant, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
+       </>
     ),
   },
 
@@ -1514,9 +1216,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une agence du voyage, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
         ScrollReveal.js.
       </>
     ),
@@ -1535,11 +1234,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une agence du voyage, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+     </>
     ),
   },
   {
@@ -1556,10 +1251,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique de montres, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
       </>
     ),
   },
@@ -1577,11 +1268,7 @@ const projects = [
         Enhanced with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une plateforme de formateurs de yoga, mettant en
-        avant une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1598,11 +1285,7 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour programme de musculation, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
+       </>
     ),
   },
   {
@@ -1619,10 +1302,7 @@ const projects = [
         powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page Erreur 404 mettant en avant une esthétique moderne et
-        minimaliste, réalisée avec HTML, CSS et JavaScript. Agrémentée
-        d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
+        </>
     ),
   },
 
@@ -1640,9 +1320,6 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour un site NFT, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
       </>
     ),
   },
@@ -1662,12 +1339,7 @@ const projects = [
         Swiper.js.
         <br />
         <br />
-        🥐 Page d'accueil intégrant un diaporama d'images en arrière-plan sur
-        les thème des îles paradisiaques. Réalisée en HTML, CSS et JavaScript,
-        avec des transitions fluides et des visuels captivants pour attirer les
-        visiteurs. Animations dynamiques créées avec GSAP et diaporama
-        interactif optimisé par Swiper.js.
-      </>
+     </>
     ),
   },
   {
@@ -1685,10 +1357,6 @@ const projects = [
         slider powered by Swiper.js.
         <br />
         <br />
-        🥐 Page d'accueil intégrant un diaporama d'images en arrière-plan sur
-        les thème des saisons. Réalisée en HTML, CSS et JavaScript, avec des
-        transitions fluides et des visuels captivants pour attirer les
-        visiteurs. Diaporama interactif optimisé par Swiper.js.
       </>
     ),
   },
@@ -1705,9 +1373,7 @@ const projects = [
         using HTML, CSS, and JavaScript only.
         <br />
         <br />
-        🥐 Page d'accueil avec un background vidéo captivant sur le thème de
-        l'Aventure. Réalisée uniquement en HTML, CSS et JavaScript.
-      </>
+       </>
     ),
   },
   {
@@ -1724,11 +1390,7 @@ const projects = [
         with smooth transitions and engaging visuals to captivate visitors.
         <br />
         <br />
-        🥐 Page d'accueil avec un diaporama de fond vidéo captivant sur le thème
-        de l'Aventure. Réalisée uniquement en HTML, CSS et JavaScript, avec des
-        transitions fluides et des visuels engageants pour captiver les
-        visiteurs.
-      </>
+       </>
     ),
   },
   {
@@ -1745,10 +1407,7 @@ const projects = [
         test to build a parallax effect while scrolling the page.
         <br />
         <br />
-        🥐 Page d'accueil Parallax avec un design moderne et minimaliste,
-        réalisée en HTML, CSS et JavaScript. Ce projet est un test pour créer un
-        effet de parallaxe lors du défilement de la page.
-      </>
+       </>
     ),
   },
   {
@@ -1765,10 +1424,7 @@ const projects = [
         test to build a parallax effect while scrolling the page.
         <br />
         <br />
-        🥐 Page d'accueil Parallax avec un design moderne et minimaliste,
-        réalisée en HTML, CSS et JavaScript. Ce projet est un test pour créer un
-        effet de parallaxe lors du défilement de la page.
-      </>
+       </>
     ),
   },
   {
@@ -1785,10 +1441,7 @@ const projects = [
         test to build a parallax effect while scrolling the page.
         <br />
         <br />
-        🥐 Page d'accueil Parallax avec un design moderne et minimaliste,
-        réalisée en HTML, CSS et JavaScript. Ce projet est un test pour créer un
-        effet de parallaxe lors du défilement de la page.
-      </>
+        </>
     ),
   },
   {
@@ -1806,10 +1459,7 @@ const projects = [
         file.
         <br />
         <br />
-        🥐 Page d'accueil pour un CV, mettant en avant une esthétique moderne et
-        minimaliste, réalisée avec HTML, CSS et JavaScript. Il inclut un mode
-        sombre/clair et permet de télécharger un CV au format PDF.
-      </>
+       </>
     ),
   },
   {
@@ -1827,10 +1477,7 @@ const projects = [
         file.
         <br />
         <br />
-        🥐 Page d'accueil pour un CV, mettant en avant une esthétique moderne et
-        minimaliste, réalisée avec HTML, CSS et JavaScript. Il inclut un mode
-        sombre/clair et permet de télécharger un CV au format PDF.
-      </>
+        </>
     ),
   },
   {
@@ -1848,11 +1495,7 @@ const projects = [
         way to showcase images.
         <br />
         <br />
-        🥐 Galerie responsive conçue avec Flexbox, arborant une esthétique
-        moderne et un agencement fluide sur tout type d'appareil. Réalisée en
-        HTML et CSS, cette galerie offre un moyen intuitif et visuellement
-        attrayant pour présenter des images.
-      </>
+        </>
     ),
   },
   {
@@ -1869,9 +1512,7 @@ const projects = [
         smooth CSS animations built from scratch.
         <br />
         <br />
-        🥐 Pages d'accueil/menu pour un restaurant présentant une esthétique
-        moderne et minimaliste, réalisées uniquement avec HTML et CSS. Embellie
-        par des animations CSS fluides.
+     par des animations CSS fluides.
       </>
     ),
   },

@@ -1,10 +1,11 @@
-// components/ContactSection.tsx
 
-import { Mail, Calendar, Linkedin, Github, MailIcon } from "lucide-react";
+import { Mail, Linkedin, Github, MailIcon } from "lucide-react";
 import Link from "next/link";
+import PageWrapper from "./PageWrapper";
 
 export default function ContactSection() {
   return (
+    <PageWrapper>
     <section
       id="contact"
       className=" flex items-center justify-center  text-white px-4"
@@ -13,7 +14,6 @@ export default function ContactSection() {
         <h2 className="textC font-extrabold text-white ">
           Contact<span className="text-blue-400 ">.</span>
         </h2>
-            {/* <br /> */}
         <p className="  text-gray-300 px-2">
           Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on{" "}
           <Link
@@ -24,9 +24,8 @@ export default function ContactSection() {
           >
             LinkedIn
           </Link>{" "}
-          if that's more your speed.
+          {`if that's more your speed.`}
         </p>
-        {/* <br /> */}
 
         <div className="pt-10 space-y-4 ">
           <div className="flex items-center justify-center gap-2">
@@ -49,8 +48,8 @@ export default function ContactSection() {
           </Link>
         </div>
         <br />
-        {/* <br /> */}
       </div>
     </section>
+    </PageWrapper>
   );
 }

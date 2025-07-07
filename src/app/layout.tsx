@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import '../lib/fontawesome'; 
 import Header from "@/components/Header";
 import ContactSection from "@/components/Contact";
-import PageWrapper from "@/components/PageWrapper";
 
 
 const poppins = Poppins({
@@ -35,12 +34,9 @@ export default  function RootLayout({
      <html lang="en" >
       
       <body className={poppins.className} id="root">
-        <PageWrapper>
               <Header />
         {children}
-       
         <ContactSection />
-        </PageWrapper>
         </body>
     </html>
     </>

@@ -39,7 +39,7 @@ export const Showcase = () => {
       link: "https://iphone15-fv.vercel.app",
       tech: ["React", "Three.js", "Tailwind", "GSAP"],
       desc: "A clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of Three.js and GSAP for 3D and animations.",
-      modal: <>This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.</>,
+      modal: <>This is a clone of Apple&apos;s iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.</>,
     },
     {
       title: "Klimate",

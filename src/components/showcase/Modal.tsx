@@ -11,7 +11,7 @@ import type { JSX } from "react";
 
 interface Props {
   isOpen: boolean;
-  setIsOpen: Function;
+setIsOpen: (value: boolean) => void;
   title: string;
   img: string;
   code: string;
@@ -80,6 +80,7 @@ export const Modal = ({
 
   if (!isOpen) return <></>;
 
-  // @ts-ignore
-  return ReactDOM.createPortal(content, document.getElementById("root"));
+  // @ts-expect-error: root element is guaranteed to exist at runtime
+return ReactDOM.createPortal(content, document.getElementById("root"));
+
 };
