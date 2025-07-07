@@ -42,7 +42,7 @@ list-style: none;
 }
 body{
 /* background-color: var(--gradient-end); */
- background-color: rgb(17, 17, 17);
+ background: rgb(17, 17, 17);
 color: var(-text-color);
 }
 
@@ -85,13 +85,13 @@ line-height: 2.5rem;
 color: var(--text-color);
 margin: 15px 0px;
 font-size: 1rem;
-padding-right: 3px;
+padding-right: 2.9px;
 line-height: 1.8rem;
 
 }
 @media (min-width: 1024px) {
   .profile-box-text p {
-    padding-right: 33px; /* only on large screens */
+    padding-right: 50px; /* only on large screens */
   }
 }
 .profile-box-text img{

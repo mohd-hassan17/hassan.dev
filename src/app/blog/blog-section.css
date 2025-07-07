@@ -1,11 +1,11 @@
 /* blog */
 .blog-section {
-  padding: 76px 24px;
+padding: 60px 24px 126px 24px;
   /* background-color: #0f0f0f; */
   color: white;
 }
 
-.container {
+.container-blog {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;

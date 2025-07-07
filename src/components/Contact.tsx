@@ -1,11 +1,11 @@
 
 import { Mail, Linkedin, Github, MailIcon } from "lucide-react";
 import Link from "next/link";
-import PageWrapper from "./PageWrapper";
+// import PageWrapper from "./PageWrapper";
 
 export default function ContactSection() {
   return (
-    <PageWrapper>
+    // <PageWrapper>
     <section
       id="contact"
       className=" flex items-center justify-center  text-white px-4"
@@ -50,6 +50,6 @@ export default function ContactSection() {
         <br />
       </div>
     </section>
-    </PageWrapper>
+    // </PageWrapper>
   );
 }

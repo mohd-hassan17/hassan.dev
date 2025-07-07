@@ -9,7 +9,7 @@ const AboutPage = () => {
         <>
         <PageWrapper>
   <section className="blog-section">
-  <div className="container">
+  <div className="container-blog">
     <h2>
       My <span className="highlight">Blog</span>
     </h2>

@@ -10,7 +10,7 @@ const SectionPage = () => {
         <PageWrapper>
   
 <section className="services-section">
-      <div className="container">
+      <div className="container-service">
         <h2>
           My <span className="highlight">Services</span>
         </h2>
