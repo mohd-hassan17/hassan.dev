@@ -307,7 +307,7 @@ const ContactPage = () => {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           line-height: 1.5;
           color: #e2e8f0;
-          background: rgb(17, 17, 17);
+          // background: rgb(17, 17, 17);
           min-height: 100vh;
           position: relative;
           overflow-x: hidden;

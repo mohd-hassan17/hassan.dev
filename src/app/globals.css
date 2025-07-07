@@ -42,7 +42,7 @@ list-style: none;
 }
 body{
 /* background-color: var(--gradient-end); */
- background: rgb(17, 17, 17);
+ background-color: rgb(17, 17, 17);
 color: var(-text-color);
 }
 
@@ -274,10 +274,10 @@ font-weight: 300;
   border: 1px solid transparent
 }
 
-.cv{
+/* .cv{
     transition: all ease 0.5s;
 
-}
+} */
 
 .cv a:hover {
   color: var(--bg-color);

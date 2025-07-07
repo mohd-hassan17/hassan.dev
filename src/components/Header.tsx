@@ -167,9 +167,9 @@ const Header = () => {
         }
 
         body {
-          background-color: var(--bg-color);
+          // background-color: var(--bg-color);
           color: var(--text-color);
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .header {
