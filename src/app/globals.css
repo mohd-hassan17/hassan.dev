@@ -367,7 +367,7 @@ grid-column: auto;
 }
 }
 @media(max-width:850px){
-  header nav{
+  /* header nav{
   position: relative;
   width: 100%;
   padding: 20px;
@@ -390,7 +390,7 @@ grid-column: auto;
     padding: 10px 0;
     display: block; 
     width: 100%;
-  }
+  } */
    .main-grid,
 .profile-grid-box,
 .about-project-container,
