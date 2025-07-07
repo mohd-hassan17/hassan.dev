@@ -41,7 +41,8 @@ list-style: none;
 
 }
 body{
-background-color: var(--gradient-end);
+/* background-color: var(--gradient-end); */
+ background: rgb(17, 17, 17);
 color: var(-text-color);
 }
 
