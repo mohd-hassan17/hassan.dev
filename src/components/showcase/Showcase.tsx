@@ -26,9 +26,8 @@ export const Showcase = () => {
       tech: ["React", "Tailwind", "Vite"],
       desc: "Brainwave is a modern UI/UX website built using React.js and Tailwind  CSS, designed with contemporary principles in mind.",
       modal: <>Brainwave is a modern UI/UX website built using React.js and Tailwind
-        CSS, designed with contemporary principles in mind. It features smooth
-        parallax effects and bento box layouts, offering a stylish UI that
-        adapts well from desktop to mobile devices. With polished animations.
+        CSS. It features smooth
+        parallax effects and bento box layouts, offering a stylish UI. With polished animations.
       </>,
     },
 
