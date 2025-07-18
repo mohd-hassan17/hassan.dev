@@ -9,13 +9,22 @@ import styles from "./showcase.module.scss";
 export const Showcase = () => {
 
   const projects = [
+     {
+      title: "Converso",
+      img: "/assets/converso.jpg",
+      code: "https://github.com/mohd-hassan17/converso",
+      link: "https://converso-virid.vercel.app/",
+      tech: ["Next.js", "Supabase", "Reactjs", "TypeScript", "Vapi"],
+      desc: "Converso is an AI-powered learning app where users choose a topic and engage in real-time voice conversations with an intelligent AI tutor.",
+      modal: <>Converso is an AI-powered learning app where users choose a topic and engage in real-time voice conversations with an intelligent AI tutor.</>,
+    },
     {
       title: "CoDrive",
-      img: "/assets/codrive.jpg",
+      img: "/assets/codrive1.jpg",
       code: "https://github.com/mohd-hassan17/CoDrive",
       link: "https://storeit-tawny.vercel.app/",
-      tech: ["Next.js", "appwrite", "Reactjs", "JavaScript", "Figma"],
-      desc: "CoDrive is a collaborative file-sharing and management platform inspired by Google Drive.",
+      tech: ["Next.js", "Appwrite", "Reactjs", "TypeScript", "ShadcnUI"],
+      desc: "CoDrive is a collaborative file-sharing and management platform inspired by Google Drive. It enables users to upload, share, and collaborate on files in real-time",
       modal: <>CoDrive is a collaborative file-sharing and management platform inspired by Google Drive. It enables users to upload, organize, share, and collaborate on files in real-time, with a focus on simplicity, security, and teamwork.</>,
     },
     {
@@ -23,7 +32,7 @@ export const Showcase = () => {
       img: "/gallery/brainwave.webp",
       code: "https://github.com/mohd-hassan17/",
       link: "https://brainwave-fv.netlify.app",
-      tech: ["React", "Tailwind", "Vite"],
+      tech: ["React", "Tailwind", "GSAP", "Three.js"],
       desc: "Brainwave is a modern UI/UX website built using React.js and Tailwind  CSS, designed with contemporary principles in mind.",
       modal: <>Brainwave is a modern UI/UX website built using React.js and Tailwind
         CSS. It features smooth
@@ -55,9 +64,9 @@ export const Showcase = () => {
       img: "/assets/codemate1.jpg",
       code: "https://github.com/mohd-hassan17/code-reviewer",
       link: "https://codemate-dun.vercel.app/",
-      tech: ["Next.js", "TypeScript", "openAI", "Tailwind", "appwrite"],
-      desc: "AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices.",
-      modal: <>AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices, and performance issues using AI-powered analysis. It offers feedback, suggestions, and even refactoring tips—acting like a virtual senior developer reviewing your pull requests.</>,
+      tech: ["Next.js", "TypeScript", "openAI", "Reactjs", "Appwrite"],
+      desc: "Codemate is a AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices, and performances.",
+      modal: <>Codemate is a AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices, and performance issues using AI-powered analysis. It offers feedback, suggestions, and even refactoring tips—acting like a virtual senior developer reviewing your pull requests.</>,
     },
 
   ];
