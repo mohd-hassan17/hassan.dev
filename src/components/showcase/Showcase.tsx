@@ -19,12 +19,12 @@ export const Showcase = () => {
       modal: <>Converso is an AI-powered learning app where users choose a topic and engage in real-time voice conversations with an intelligent AI tutor.</>,
     },
     {
-      title: "CoDrive",
+      title: "Storeit",
       img: "/assets/codrive1.jpg",
       code: "https://github.com/mohd-hassan17/CoDrive",
       link: "https://storeit-tawny.vercel.app/",
       tech: ["Next.js", "Appwrite", "Reactjs", "TypeScript", "ShadcnUI"],
-      desc: "CoDrive is a collaborative file-sharing and management platform inspired by Google Drive. It enables users to upload, share, and collaborate on files in real-time",
+      desc: "Storeit is a collaborative file-sharing and management platform inspired by Google Drive. It enables users to upload, share, and collaborate in real-time",
       modal: <>CoDrive is a collaborative file-sharing and management platform inspired by Google Drive. It enables users to upload, organize, share, and collaborate on files in real-time, with a focus on simplicity, security, and teamwork.</>,
     },
     {
@@ -61,7 +61,7 @@ export const Showcase = () => {
 
     {
       title: "Codemate",
-      img: "/assets/codemate1.jpg",
+      img: "/assets/codemate.jpg",
       code: "https://github.com/mohd-hassan17/code-reviewer",
       link: "https://codemate-dun.vercel.app/",
       tech: ["Next.js", "TypeScript", "openAI", "Reactjs", "Appwrite"],
