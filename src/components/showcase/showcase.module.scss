@@ -21,13 +21,17 @@
     position: absolute;
     translate: -50% 20%;
     left: 50%;
-    bottom: 46px;
+    bottom: 44px;
 
     width: 100%;
     height: auto; 
 
     border-radius: 0.4rem;
     transition: 0.25s all;
+
+     @media (max-width: 768px) {
+      bottom: 29px; // or any smaller value you prefer
+    }
   }
 }
 
