@@ -152,7 +152,7 @@ Project  </strong>
 </div>
 <div className="grid-project-box bg-gredient">
 <span>+50</span>
-  <strong>GitHub Commits</strong>
+  <strong>GitHub Contributions</strong>
 </div>
 </div>
 
