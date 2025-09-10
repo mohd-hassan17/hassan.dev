@@ -1,172 +1,222 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Hero = () => {
-
   return (
     <>
-    {/* contact */}
-    <main className="main-grid">
-{/* <!--profile--> */}
-  <Link href="#" className="profile-grid-box bg-gredient">
+      {/* contact */}
+      <main className="main-grid">
+        {/* <!--profile--> */}
+        <Link href="#" className="profile-grid-box bg-gredient">
+          <div className="profile-box-text  ">
+            <h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
+            <p>{`I'm a Full-Stack Developer specializing in building scalable, high-performance web applications using modern frameworks like Next.js, React, and more.`}</p>
+            <Image src="/assets/icon.svg" width={50} height={50} alt="icon" />
+          </div>
+        </Link>
 
+        <div className="about-project-container">
+          <div className="marquee-grid-box bg-gredient">
+            <div className="marquee">
+              <div className="marquee-content">
+                <span>Built by Mohd Hassan 🚀</span>
+                <span>Code. Design. Ship. ✨</span>
+                <span>From Idea to Launch 🔧</span>
+                <span>Modern Web Builds 💻</span>
+              </div>
+              <div className="marquee-content" aria-hidden="true">
+                <span>Built by Mohd Hassan 🚀</span>
+                <span>Code. Design. Ship. ✨</span>
+                <span>From Idea to Launch 🔧</span>
+                <span>Modern Web Builds 💻</span>
+              </div>
+            </div>
+          </div>
 
-<div className="profile-box-text  ">
-<h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
-<p>{`I'm a Full-Stack Developer specializing in building scalable, high-performance web applications using modern frameworks like Next.js, React, and more.`}</p>
-    <Image src="/assets/icon.svg" width={50} height={50} alt="icon"/>
-</div>
-</Link>
+          {/* about */}
+          <Link href={"/about"} className="box-grid about-grid-box bg-gredient">
+            <Image
+              src="/assets/sign.png"
+              alt="about"
+              className="grid-box-img"
+              width={200}
+              height={100}
+            />
+            <div className="grid-text-container">
+              <div className="grid-text">
+                <span>More About Me</span>
+                <strong>Resume</strong>
+              </div>
+              <div className="grid-icon">
+                <Image
+                  src="/assets/icon.svg"
+                  alt="arrow"
+                  width={50}
+                  height={50}
+                />
+              </div>
+            </div>
+          </Link>
 
-<div className="about-project-container">
+          {/* work */}
 
-  <div className="marquee-grid-box bg-gredient">
-    <div className="marquee">
-      <div className="marquee-content">
-       <span>Built by Mohd Hassan 🚀</span>
-      <span>Code. Design. Ship. ✨</span>
-      <span>From Idea to Launch 🔧</span>
-      <span>Modern Web Builds 💻</span>
-    </div>
-    <div className="marquee-content" aria-hidden="true">
-      <span>Built by Mohd Hassan 🚀</span>
-      <span>Code. Design. Ship. ✨</span>
-      <span>From Idea to Launch 🔧</span>
-      <span>Modern Web Builds 💻</span>
-    </div>
-    </div>
-  </div>
+          <Link href={"/projects"} className="box-grid bg-gradient">
+            <Image
+              src="/assets/my-works.png"
+              alt="about"
+              className="grid-box-img"
+              width={200}
+              height={100}
+            />
+            <div className="grid-text-container">
+              <div className="grid-text">
+                <span>ShowCase</span>
+                <strong>Project </strong>
+              </div>
+              <div className="grid-icon">
+                <Image
+                  src="/assets/icon.svg"
+                  alt="arrow"
+                  width={50}
+                  height={50}
+                />
+              </div>
+            </div>
+          </Link>
+        </div>
 
-  {/* about */}
-<Link href={"/about"} className="box-grid about-grid-box bg-gredient">
-<Image src="/assets/sign.png" alt="about" className="grid-box-img" width={200} height={100} />
-<div className="grid-text-container">
-  <div className="grid-text">
-  <span>
-    More About Me
-  </span>
-  <strong>
-    Resume
-  </strong>
-  </div>
-  <div className="grid-icon">
-    <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
-  </div>
-</div>
-</Link>
+        {/* blog */}
+        <Link href={"/blog"} className="box-grid bg-gredient blog-grid">
+          <Image
+            src="/assets/gfonts.png"
+            alt="about"
+            className="grid-box-img"
+            width={200}
+            height={100}
+          />
+          <div className="grid-text-container">
+            <div className="grid-text">
+              <span>My Blog</span>
+              <strong>Tech Thoughts</strong>
+            </div>
+            <div className="grid-icon">
+              <Image
+                src="/assets/icon.svg"
+                alt="arrow"
+                width={50}
+                height={50}
+              />
+            </div>
+          </div>
+        </Link>
 
-{/* work */}
+        {/* services */}
 
-<Link href={"/projects"} className="box-grid bg-gradient">
-<Image src="/assets/my-works.png" alt="about" className="grid-box-img" width={200} height={100} />
-<div className="grid-text-container">
-  <div className="grid-text">
-  <span>
-   ShowCase
-  </span>
-  <strong>
-Project  </strong>
-  </div>
-  <div className="grid-icon">
-    <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
-  </div>
-</div>
-</Link>
-</div>
+        <Link href={"/service"} className="box-grid bg-gredient service-grid">
+          <div className="service-icon">
+            <FontAwesomeIcon icon={["fas", "code"]} className="text-[1.8rem]" />
+            <FontAwesomeIcon
+              icon={["fas", "gears"]}
+              className="text-[1.8rem]"
+            />
+            <FontAwesomeIcon
+              icon={["fas", "pen-fancy"]}
+              className="text-[1.8rem]"
+            />
+            <FontAwesomeIcon
+              icon={["fas", "cloud"]}
+              className="text-[1.8rem]"
+            />
+          </div>
 
-{/* blog */}
-<Link href={"/blog"} className="box-grid bg-gredient blog-grid">
-<Image src="/assets/gfonts.png" alt="about" className="grid-box-img" width={200} height={100} />
-<div className="grid-text-container">
-  <div className="grid-text">
-  <span>
-    My Blog 
-  </span>
-  <strong>Tech Thoughts</strong>
-  </div>
-  <div className="grid-icon">
-    <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
-    </div>
-</div>
-</Link>
+          <div className="grid-text-container">
+            <div className="grid-text">
+              <span> My Services </span>
+              <strong> Services </strong>
+            </div>
+            <div className="grid-icon">
+              <Image
+                src="/assets/icon.svg"
+                alt="arrow"
+                width={50}
+                height={50}
+              />
+            </div>
+          </div>
+        </Link>
 
-{/* services */}
+        {/* social */}
 
-<Link href={"/service"} className="box-grid bg-gredient service-grid">  
-<div className="service-icon">
-<FontAwesomeIcon icon={['fas', 'code']} className="text-[1.8rem]" />
-<FontAwesomeIcon icon={['fas', 'gears']} className="text-[1.8rem]" />
-<FontAwesomeIcon icon={['fas', 'pen-fancy']} className="text-[1.8rem]" />
-<FontAwesomeIcon icon={['fas', 'cloud']} className="text-[1.8rem]" />
-</div>
+        <div className="social-grid bg-gredient box-grid">
+          <div className="social-container bg-gradient">
+            <Link
+              href="https://github.com/mohd-hassan17"
+              target="_blank"
+              className="social-link"
+            >
+              <FontAwesomeIcon icon={["fab", "github"]} />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/mohd-hassan17/"
+              target="_blank"
+              className="social-link"
+            >
+              <FontAwesomeIcon icon={["fab", "linkedin"]} />
+            </Link>
+          </div>
 
-<div className="grid-text-container">
-  <div className="grid-text">
-  <span> My Services </span>
-  <strong> Services </strong>
-  </div>
-  <div className="grid-icon">
-    <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
-  </div>
-</div>
-</Link>
+          <div className="grid-text-container">
+            <div className="grid-text">
+              <span>Follow Me</span>
+              <strong>Social</strong>
+            </div>
+            <div className="grid-icon">
+              <Image
+                src="/assets/icon.svg"
+                alt="arrow"
+                width={50}
+                height={50}
+              />
+            </div>
+          </div>
+        </div>
 
-{/* social */}
+        {/* projects */}
 
-<div className="social-grid bg-gredient box-grid">
-  <div className="social-container bg-gradient">
-    
-      <Link href="https://github.com/mohd-hassan17"  target="_blank" className="social-link">
-        <FontAwesomeIcon icon={['fab', 'github']} />
-      </Link>
-          <Link href="https://www.linkedin.com/in/mohd-hassan17/"  target="_blank" className="social-link">
+        <div className="project-count-grid box-grid bg-gredient">
+          <div className="grid-project-box bg-gredient">
+            <span>+15</span>
+            <strong>Projects Built</strong>
+          </div>
+          <div className="grid-project-box bg-gredient">
+            <span>+8</span>
+            <strong>Tech Stacks Learned</strong>
+          </div>
+          <div className="grid-project-box bg-gredient">
+            <span>+50</span>
+            <strong>GitHub Contributions</strong>
+          </div>
+        </div>
 
-        <FontAwesomeIcon icon={['fab', 'linkedin']} />
-      </Link>
-     
-  </div>
-
-  <div className="grid-text-container">
-    <div className="grid-text">
-    <span>Follow Me</span>
-    <strong>Social</strong>
-</div>
-<div className="grid-icon">
-    <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
-  </div>
-</div>
-    </div>
-
-{/* projects */}
-
-<div className="project-count-grid box-grid bg-gredient">
-<div className="grid-project-box bg-gredient">
- <span>+15</span>
-  <strong>Projects Built</strong>
-</div>
-<div className="grid-project-box bg-gredient">
-<span>+8</span>
-  <strong>Tech Stacks Learned</strong>
-</div>
-<div className="grid-project-box bg-gredient">
-<span>+50</span>
-  <strong>GitHub Contributions</strong>
-</div>
-</div>
-
-{/* contact */}
-<Link href="/contact" className="contact-grid bg-gredient box-grid">
-  <Image className="contact-grid-top-icon" src="/assets/icon2.png" alt="arrow" width={50} height={50} />
-  <h2>{`Let's`} <br />  work  <span> together.</span></h2>
-      <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
-</Link>
-</main>
-{/* <ContactSection /> */}
-</>
-
+        {/* contact */}
+        <Link href="/contact" className="contact-grid bg-gredient box-grid">
+          <Image
+            className="contact-grid-top-icon"
+            src="/assets/icon2.png"
+            alt="arrow"
+            width={45}
+            height={45}
+          />
+          <h2>
+            {`Let's`} <br /> work <span> together.</span>
+          </h2>
+          <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
+        </Link>
+      </main>
+      {/* <ContactSection /> */}
+    </>
   );
-}       
+};
 
 export default Hero;
