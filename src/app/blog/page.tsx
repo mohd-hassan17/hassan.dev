@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { CalendarDays, ExternalLink } from "lucide-react";
-// import "./blog-secton.css"
+import Image from "next/image";
 import "./blog-section.css";
 
 const HASHNODE_API = "https://gql.hashnode.com";
@@ -38,8 +38,21 @@ async function fetchFromHost(host: string) {
   return data.data.publication?.posts.edges || [];
 }
 
+type PostNode = {
+  title: string;
+  coverImage: { url: string };
+  publishedAt: string;
+  brief: string;
+  slug: string;
+  host?: string;
+};
+
+type Post = {
+  node: PostNode;
+};
+
 export default function BlogPage() {
-  const [posts, setPosts] = useState<any[]>([]);
+  const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -55,11 +68,13 @@ export default function BlogPage() {
         "vectorsamjhoaasaan.hashnode.dev",
       ];
 
-      let allPosts: any[] = [];
+      let allPosts: Post[] = [];
       for (const host of hosts) {
-        const hostPosts = await fetchFromHost(host);
+        const hostPosts: Post[] = await fetchFromHost(host);
         // Add host info to each post
-        hostPosts.forEach((p: any) => (p.node.host = host));
+        hostPosts.forEach((p) => {
+          p.node.host = host;
+        });
         allPosts = [...allPosts, ...hostPosts];
       }
 
@@ -137,10 +152,13 @@ export default function BlogPage() {
               {/* Cover Image */}
               {post.node.coverImage?.url && (
                 <div className="blog-card-image-container">
-                  <img
+                  <Image
                     src={post.node.coverImage.url || "/placeholder.svg"}
                     alt={post.node.title}
+                    width={600}
+                    height={400}
                     className="blog-card-image"
+                    priority={false}
                   />
                 </div>
               )}

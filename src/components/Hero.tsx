@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
   return (
     <>
-      {/* contact */}
       <main className="main-grid">
         {/* <!--profile--> */}
         <Link href="#" className="profile-grid-box bg-gredient">
