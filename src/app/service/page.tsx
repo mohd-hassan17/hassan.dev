@@ -3,6 +3,7 @@
 import PageWrapper from "@/components/PageWrapper";
 import "./services-section.css";
 
+
 const SectionPage = () => {
   return (
     <>
@@ -13,11 +14,10 @@ const SectionPage = () => {
               My <span className="highlight">Services</span>
             </h2>
             <p className="intro">
-              I specialize in building{" "}
-              <strong>responsive, high-performance web applications</strong>
-              that deliver seamless user experiences across devices. By
-              combining clean frontend design, scalable backend systems, and{" "}
-              <strong>AI-driven automation</strong>
+              I design and build{" "}
+              <strong className="highlight">high-performance web applications{" "}</strong>
+              that ensure seamless user experiences, combining clean frontend design, robust backend systems, and <strong className="highlight">AI-powered automation </strong>for smarter, user-focused solutions.{" "}
+              {/* <strong className="highlight">AI-driven automation</strong> */}
             </p>
 
             <div className="services-grid">
@@ -47,7 +47,21 @@ const SectionPage = () => {
                   and AI-powered features.
                 </p>
               </div>
+               <div className="service-card">
+                <h3>RAG Applications</h3>
+                <p>
+                  Building advanced Retrieval-Augmented Generation systems for knowledge-intensive apps with real-time, accurate responses.
+                </p>
+              </div>
               <div className="service-card">
+                <h3>UI/UX Design</h3>
+                <p>
+                  Crafting clean, user-friendly interfaces and intuitive designs that enhance user engagement.
+                </p>
+              </div>
+
+
+               <div className="service-card">
                 <h3>Mobile Development</h3>
                 <p>
                   Creating cross-platform mobile applications with React Native,

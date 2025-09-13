@@ -10,7 +10,7 @@ const Hero = () => {
         <Link href="#" className="profile-grid-box bg-gredient">
           <div className="profile-box-text  ">
             <h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
-            <p>{`I design and build full-stack web applications powered by Generative AI, creating intuitive, high-performance, and user-focused experiences that bring ideas to life.`}</p>
+            <p>{`I design and build full-stack web applications powered by Generative AI, creating smart, seamless, and user-centric solutions.`}</p>
             <Image src="/assets/icon.svg" width={50} height={50} alt="icon" />
           </div>
         </Link>

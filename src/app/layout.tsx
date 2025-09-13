@@ -14,9 +14,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Hassan.dev",
+  title: "Mohd Hassan",
   description:
-    "Full-stack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
+    "I design and build modern web applications powered by Generative AI, creating smart, seamless, and user-centric solutions.",
   icons: {
     icon: "/favicon.ico",
   }
