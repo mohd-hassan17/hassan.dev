@@ -10,7 +10,7 @@ const Hero = () => {
         <Link href="#" className="profile-grid-box bg-gredient">
           <div className="profile-box-text  ">
             <h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
-            <p>{`I'm a GenAI Full Stack Developer focused on creating innovative AI-driven applications that are scalable, efficient, and user-focused.`}</p>
+            <p>{`I'm a GenAI Full Stack Developer focused on creating innovative AI driven applications that are scalable, efficient, and user focused.`}</p>
             <Image src="/assets/icon.svg" width={50} height={50} alt="icon" />
           </div>
         </Link>
