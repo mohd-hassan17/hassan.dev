@@ -1,51 +1,66 @@
-'use client'
+"use client";
 
 import PageWrapper from "@/components/PageWrapper";
-import './services-section.css';
-
+import "./services-section.css";
 
 const SectionPage = () => {
-    return (
-        <>
-        <PageWrapper>
-  
-<section className="services-section">
-      <div className="container-service">
-        <h2>
-          My <span className="highlight">Services</span>
-        </h2>
-        <p className="intro">
-          As a Fullstack Developer, I offer end-to-end solutions from frontend design to backend development. I’m also exploring
-          <strong> React Native</strong> for mobile apps and experimenting with <strong>Generative AI</strong> to bring intelligent features into digital products.
-        </p>
+  return (
+    <>
+      <PageWrapper>
+        <section className="services-section">
+          <div className="container-service">
+            <h2>
+              My <span className="highlight">Services</span>
+            </h2>
+            <p className="intro">
+              I specialize in building{" "}
+              <strong>responsive, high-performance web applications</strong>
+              that deliver seamless user experiences across devices. By
+              combining clean frontend design, scalable backend systems, and{" "}
+              <strong>AI-driven automation</strong>
+            </p>
 
-        <div className="services-grid">
-          <div className="service-card">
-            <h3>Frontend Development</h3>
-            <p>Building responsive and accessible UIs using React, Next.js, and modern design systems.</p>
+            <div className="services-grid">
+              <div className="service-card">
+                <h3>Frontend Development</h3>
+                <p>
+                  Building responsive, accessible, and high-performance UIs with
+                  React, Next.js, and modern design systems to deliver seamless
+                  user experiences.
+                </p>
+              </div>
+
+              <div className="service-card">
+                <h3>Backend Development</h3>
+                <p>
+                  Developing secure and scalable APIs, microservices, and
+                  server-side applications using Node.js, Express, and databases
+                  like MongoDB and PostgreSQL.
+                </p>
+              </div>
+
+              <div className="service-card">
+                <h3>Generative AI Solutions</h3>
+                <p>
+                  Integrating LLMs and AI frameworks (ChatGPT, LangChain,
+                  LangGraph) to build intelligent chatbots, automated workflows,
+                  and AI-powered features.
+                </p>
+              </div>
+              <div className="service-card">
+                <h3>Mobile Development</h3>
+                <p>
+                  Creating cross-platform mobile applications with React Native,
+                  combining native performance with the flexibility of
+                  JavaScript.
+                </p>
+              </div>
+            </div>
           </div>
-
-          <div className="service-card">
-            <h3>Backend Development</h3>
-            <p>Creating scalable APIs and server-side apps with Node.js, Express, and MongoDB.</p>
-          </div>
-
-          <div className="service-card">
-            <h3>Mobile Development</h3>
-            <p>Learning React Native to build cross-platform mobile applications with a native feel.</p>
-          </div>
-
-          <div className="service-card">
-            <h3>Generative AI Integration</h3>
-            <p>Experimenting with LLMs to enhance user experiences through smart, AI-powered features.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-        </PageWrapper>
-        </>
-    );
-    }
+        </section>
+      </PageWrapper>
+    </>
+  );
+};
 
 export default SectionPage;

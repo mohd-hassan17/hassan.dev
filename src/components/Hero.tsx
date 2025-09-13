@@ -11,7 +11,7 @@ const Hero = () => {
         <Link href="#" className="profile-grid-box bg-gredient">
           <div className="profile-box-text  ">
             <h1 className="font-bold text-3xl">Hi, Mohd Hassan.</h1>
-            <p>{`I'm a Full-Stack Developer specializing in building scalable, high-performance web applications using modern frameworks like Next.js, React, and more.`}</p>
+            <p>{`I'm a GenAI Full Stack Developer focused on creating innovative AI-driven applications that are scalable, efficient, and user-focused.`}</p>
             <Image src="/assets/icon.svg" width={50} height={50} alt="icon" />
           </div>
         </Link>
@@ -186,23 +186,26 @@ const Hero = () => {
 
         <div className="project-count-grid box-grid bg-gredient">
           <div className="grid-project-box bg-gredient">
-            <span>+15</span>
-            <strong>Projects Built</strong>
+            <span>🌍</span>
+            <strong>Fullstack Developer</strong>
           </div>
           <div className="grid-project-box bg-gredient">
-            <span>+8</span>
-            <strong>Tech Stacks Learned</strong>
+            <span>🤖</span>
+            <strong> AI & Innovation</strong>
           </div>
           <div className="grid-project-box bg-gredient">
-            <span>+50</span>
-            <strong>GitHub Contributions</strong>
+            <span>✨</span>
+            <strong>Design & Experience</strong>
           </div>
         </div>
 
         {/* contact */}
-        <Link href="/contact" className="contact-grid bg-gredient box-grid">
+        <Link
+          href="/contact"
+          className="contact-grid-hero bg-gredient box-grid"
+        >
           <Image
-            className="contact-grid-top-icon"
+            className="contact-grid-top-icon contact-icon-hero"
             src="/assets/icon2.png"
             alt="arrow"
             width={45}
@@ -211,7 +214,13 @@ const Hero = () => {
           <h2>
             {`Let's`} <br /> work <span> together.</span>
           </h2>
-          <Image src="/assets/icon.svg" alt="arrow" width={50} height={50} />
+          <Image
+            src="/assets/icon.svg"
+            className="contact-icon-hero"
+            alt="arrow"
+            width={50}
+            height={50}
+          />
         </Link>
       </main>
       {/* <ContactSection /> */}

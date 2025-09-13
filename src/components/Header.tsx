@@ -29,6 +29,8 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  
+
   return (
     <header className="header">
       <nav className="navigation">
@@ -41,7 +43,7 @@ const Header = () => {
           <li>
             <Link
               href="/"
-              className={isActive('/') ? 'active' : ''}
+                className={`nav-link ${isActive('/') ? 'active' : ''}`}
               onClick={handleLinkClick}
             >
               Home
@@ -50,7 +52,7 @@ const Header = () => {
           <li>
             <Link
               href="/about"
-              className={isActive('/about') ? 'active' : ''}
+                className={`nav-link ${isActive('/about') ? 'active' : ''}`}
               onClick={handleLinkClick}
             >
               About
@@ -59,7 +61,7 @@ const Header = () => {
           <li>
             <Link
               href="/projects"
-              className={isActive('/projects') ? 'active' : ''}
+                className={`nav-link ${isActive('/projects') ? 'active' : ''}`}
               onClick={handleLinkClick}
             >
               Projects
@@ -68,7 +70,7 @@ const Header = () => {
           <li>
             <Link
               href="/contact"
-              className={isActive('/contact') ? 'active' : ''}
+                className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
               onClick={handleLinkClick}
             >
               Contact
@@ -96,63 +98,62 @@ const Header = () => {
 
         {/* Mobile Menu */}
         <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-          <ul className="mobile-menu-items">
-            <li>
-              <Link
-                href="/"
-                className={isActive('/') ? 'active' : ''}
-                onClick={handleLinkClick}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className={isActive('/about') ? 'active' : ''}
-                onClick={handleLinkClick}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/projects"
-                className={isActive('/projects') ? 'active' : ''}
-                onClick={handleLinkClick}
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className={isActive('/contact') ? 'active' : ''}
-                onClick={handleLinkClick}
-              >
-                Contact
-              </Link>
-            </li>
-            <li className="mobile-cv">
-              <a
-                // href="/Resume.pdf"
-                onClick={handleUnavailableCV}
-                className="nav-contact"
-              >
-                View CV
-              </a>
-            </li>
-          </ul>
-        </div>
+  <ul className="mobile-menu-items">
+  <li>
+    <Link
+      href="/"
+      className={`mobile-link ${isActive('/') ? 'activee' : ''}`}
+      onClick={handleLinkClick}
+    >
+      Home
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/about"
+      className={`mobile-link ${isActive('/about') ? 'activee' : ''}`}
+      onClick={handleLinkClick}
+    >
+      About
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/projects"
+      className={`mobile-link ${isActive('/projects') ? 'activee' : ''}`}
+      onClick={handleLinkClick}
+    >
+      Projects
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/contact"
+      className={`mobile-link ${isActive('/contact') ? 'activee' : ''}`}
+      onClick={handleLinkClick}
+    >
+      Contact
+    </Link>
+  </li>
+  <li className="mobile-cv">
+    <a
+      onClick={handleUnavailableCV}
+      className="nav-contact"
+    >
+      View CV
+    </a>
+  </li>
+</ul>
+
+</div>
      
       </nav>
          <ToastContainer
         position="top-center"
-        autoClose={3000}
+        autoClose={2000}
         hideProgressBar={false}
         newestOnTop={true}
         closeOnClick
-        // pauseOnHover
         theme="dark"
       />
     

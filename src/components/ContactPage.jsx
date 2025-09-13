@@ -173,18 +173,12 @@ const ContactPage = () => {
 
   return (
     <>
-      <div className="background-elements">
-        <div className="bg-shape"></div>
-        <div className="bg-shape"></div>
-        <div className="bg-shape"></div>
-        <div className="bg-shape"></div>
-      </div>
-
-      <div className="container">
-        <div className="header">
+    <div className="contact-page">
+      <div className="contact-container">
+        <div className="header-contact">
           
           <h1>Let's Connect</h1>
-          <p>Ready to bring your ideas to life? I'm here to help you build something amazing together.</p>
+          {/* <p>Ready to bring your ideas to life? I'm here to help you build something amazing together.</p> */}
         </div>
 
         <div className="contact-grid">
@@ -278,13 +272,13 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="availability">
+        {/* <div className="availability">
           <h3>
             <span className="status-indicator"></span>
             Available for New Projects
           </h3>
           <p>I'm currently accepting new projects and would love to hear about your next big idea!</p>
-        </div>
+        </div> */}
        <ToastContainer
   position="top-center"
   autoClose={3000}
@@ -295,89 +289,31 @@ const ContactPage = () => {
   theme="dark"
 />
       </div>
+      </div>
 
       <style jsx global>{`
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
+       
 
-        body {
+        .contact-page {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           line-height: 1.5;
           color: #e2e8f0;
           // background: rgb(17, 17, 17);
-          min-height: 100vh;
+          // min-height: 100vh;
           position: relative;
           overflow-x: hidden;
         }
 
-        .background-elements {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          pointer-events: none;
-          z-index: -1;
-        }
+       .contact-container {
+  max-width: 1200px;
+  margin: 0 auto; /* remove negative margin */
+  padding: 2rem;
+  position: relative;
+}
 
-        .bg-shape {
-          position: absolute;
-          background: rgba(255, 255, 255, 0.05);
-          border-radius: 50%;
-          animation: float 8s ease-in-out infinite;
-        }
-
-        .bg-shape:nth-child(1) {
-          width: 80px;
-          height: 80px;
-          top: 15%;
-          left: 10%;
-          animation-delay: 0s;
-        }
-
-        .bg-shape:nth-child(2) {
-          width: 60px;
-          height: 60px;
-          top: 60%;
-          right: 15%;
-          animation-delay: 2s;
-        }
-
-        .bg-shape:nth-child(3) {
-          width: 40px;
-          height: 40px;
-          bottom: 25%;
-          left: 20%;
-          animation-delay: 4s;
-        }
-
-        .bg-shape:nth-child(4) {
-          width: 50px;
-          height: 50px;
-          top: 35%;
-          right: 25%;
-          animation-delay: 6s;
-        }
-
-        @keyframes float {
-          0%, 100% { transform: translate(0, 0) rotate(0deg); }
-          33% { transform: translate(15px, -15px) rotate(120deg); }
-          66% { transform: translate(-10px, 10px) rotate(240deg); }
-        }
-
-        .container {
-          max-width: 100%;
-          margin: 0 auto;
-          padding: 1rem;
-          position: relative;
-        }
-
-        .header {
+        .header-contact {
           text-align: center;
-          margin-bottom: 1.5rem;
+          margin-bottom: 2.5rem;
           animation: slideDown 0.8s ease-out;
           padding: 0 0.5rem;
         }
@@ -393,16 +329,17 @@ const ContactPage = () => {
           }
         }
 
-        .header h1 {
+        .header-contact h1 {
           font-size: clamp(1.75rem, 6vw, 3.5rem);
           font-weight: 700;
           color: white;
-          margin-bottom: 0.75rem;
+          margin-bottom: 1.5rem;
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
           line-height: 1.2;
+          margin-top: -0.5rem;
         }
 
-        .header p {
+        .header-contact p {
           font-size: clamp(0.9rem, 3vw, 1.2rem);
           color: rgba(255, 255, 255, 0.9);
           max-width: 90%;
@@ -963,6 +900,7 @@ const ContactPage = () => {
           }
         }
       `}</style>
+      
     </>
   );
 };
