@@ -17,7 +17,6 @@ const SectionPage = () => {
               I design and build{" "}
               <strong className="highlight">high-performance web applications{" "}</strong>
               that ensure seamless user experiences, combining clean frontend design, robust backend systems, and <strong className="highlight">AI-powered automation </strong>for smarter, user-focused solutions.{" "}
-              {/* <strong className="highlight">AI-driven automation</strong> */}
             </p>
 
             <div className="services-grid">

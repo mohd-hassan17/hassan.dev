@@ -66,6 +66,7 @@ export default function BlogPage() {
         "prmpt.hashnode.dev",
         "cot.hashnode.dev",
         "vectorsamjhoaasaan.hashnode.dev",
+        "nextjs16.hashnode.dev"
       ];
 
       let allPosts: Post[] = [];
@@ -150,18 +151,29 @@ export default function BlogPage() {
           {posts.map((post, i) => (
             <div key={i} className="blog-card">
               {/* Cover Image */}
-              {post.node.coverImage?.url && (
-                <div className="blog-card-image-container">
-                  <Image
-                    src={post.node.coverImage.url || "/placeholder.svg"}
-                    alt={post.node.title}
-                    width={600}
-                    height={400}
-                    className="blog-card-image"
-                    priority={false}
-                  />
-                </div>
-              )}
+              {post.node.coverImage?.url ? (
+  <div className="blog-card-image-container">
+    <Image
+      src={post.node.coverImage.url}
+      alt={post.node.title}
+      width={600}
+      height={400}
+      className="blog-card-image"
+      priority={false}
+    />
+  </div>
+) : (
+  <div className="blog-card-image-container">
+    <Image
+      src="/assets/blog-icon.webp"
+      alt="Default blog placeholder"
+      width={600}
+      height={400}
+      className="blog-card-image"
+      priority={false}
+    />
+  </div>
+)}
 
               {/* Card Header */}
               <div className="blog-card-header">
