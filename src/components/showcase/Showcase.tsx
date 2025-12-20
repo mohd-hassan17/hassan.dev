@@ -5,7 +5,6 @@ import { SectionHeader } from "@/components/utils/SectionHeader";
 import { ShowcaseItem } from "./ShowcaseItem";
 import { TransitionLink } from "../utils/TransitionLink";
 import styles from "./showcase.module.scss";
-import PageWrapper from "../PageWrapper";
 
 export const Showcase = () => {
   const projects = [
