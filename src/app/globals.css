@@ -57,7 +57,8 @@ ul {
   grid-gap: 20px;
   width: 90%;
   max-width: 1180px;
-  margin: 50px auto;
+  margin: 18px auto;
+  margin-bottom: 44px;
 }
 .profile-grid-box {
   display: grid;

@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function ContactSection() {
   return (
     <section
-      id="contact"
-      className=" flex items-center justify-center  text-white px-4"
-    >
-      <div className="text-center max-w-2xl py-32">
+  id="contact"
+  className="flex justify-center text-white px-4 "
+>
+      <div className="text-center max-w-2xl  ">
         <h2 className="textC font-semibold text-white">
           Contact<span className="text-blue-400">.</span>
         </h2>
@@ -31,16 +31,15 @@ export default function ContactSection() {
             <Mail size={14} />
             <span className="text-gray-300 text-[13px] sm:text-[14px] lg:text-[15px]">ansarimohdhassan3@gmail.com</span>
           </div>
-            <div className="mt-2"></div>
         </div>
 
-        <div className="mt-4 flex justify-center gap-6">
+        <div className="flex justify-center gap-6 ">
           <Link
             href="https://www.linkedin.com/in/mohd-hassan17/"
             target="_blank"
             aria-label="LinkedIn"
           >
-            <Linkedin className="hover:text-blue-400 transition"  size={18}/>
+            <Linkedin className="hover:text-blue-400 transition" size={18}/>
           </Link>
           <Link
             href="https://github.com/mohd-hassan17"
