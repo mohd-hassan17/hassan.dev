@@ -57,7 +57,7 @@ ul {
   grid-gap: 20px;
   width: 90%;
   max-width: 1180px;
-  margin: 18px auto;
+  margin: 26px auto;
   margin-bottom: 44px;
 }
 .profile-grid-box {
@@ -422,7 +422,9 @@ ul {
   font-size: 26px;
 }
 /* about */
-
+.glass-card {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6;
+}
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -635,3 +637,5 @@ ul {
     max-width: 270px;
   }
 }
+
+/* // about */
