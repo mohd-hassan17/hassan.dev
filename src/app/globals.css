@@ -57,7 +57,7 @@ ul {
   grid-gap: 20px;
   width: 90%;
   max-width: 1180px;
-  margin: 26px auto;
+  margin: 18px auto;
   margin-bottom: 44px;
 }
 .profile-grid-box {
@@ -637,3 +637,109 @@ ul {
 }
 
 /* // about */
+.about {
+  min-height: 100vh;
+  padding: 32px;
+  background: radial-gradient(
+      800px 400px at left,
+      rgba(0, 200, 200, 0.08),
+      transparent
+    ),
+    #0b0b0d;
+  color: #eaeaea;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 24px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.dot {
+  color: #00e5d8;
+}
+
+.status {
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 229, 216, 0.4);
+  color: #00e5d8;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+}
+
+/* Cards */
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.01)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 28px;
+  backdrop-filter: blur(8px);
+}
+
+.intro h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.intro p {
+  color: #bdbdbd;
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+.intro ul {
+  margin-top: 16px;
+  padding-left: 18px;
+  color: #cfcfcf;
+}
+
+.skills h3,
+.infra h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #9ee7e2;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tags span {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+}
+
+/* Infra */
+.infra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
