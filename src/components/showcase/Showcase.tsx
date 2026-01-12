@@ -9,6 +9,20 @@ import styles from "./showcase.module.scss";
 export const Showcase = () => {
   const projects = [
     {
+      title: "AskCortex",
+      img: "/assets/askcortex.jpg",
+      code: "https://github.com/mohd-hassan17/",
+      link: "https://askcortex.vercel.app/",
+      tech: ["Next.js", "Reactjs", "TypeScript", "Tanstack", "ShadcnUI", "PostgreSQL", "Vercel AI SDK", "OpenRouter"],
+      desc: "AskCortex is a AI-powered chat platform with web search, enabling conversations across 30+ LLMs with model switching and context-aware responses.",
+      modal: (
+        <>
+          AskCortex is a AI-powered chat platform with web search, enabling conversations across 30+ LLMs with model switching and context-aware responses.
+          Implemented RAG pipelines and streaming responses using Vercel AI SDK and OpenRouter for low-latency multi-model querying.
+        </>
+      ),
+    },
+    {
       title: "CodeZen",
       img: "/assets/codezen.png",
       code: "https://github.com/mohd-hassan17/CodeZen",
@@ -142,23 +156,23 @@ export const Showcase = () => {
       ),
     },
 
-    {
-      title: "Codemate",
-      img: "/assets/codemate.jpg",
-      code: "https://github.com/mohd-hassan17/code-reviewer",
-      link: "https://codemate-dun.vercel.app/",
-      tech: ["Next.js", "TypeScript", "openAI", "Reactjs", "Appwrite"],
-      desc: "Codemate is a AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices, and performances.",
-      modal: (
-        <>
-          Codemate is a AI Code Reviewer is an intelligent tool that helps
-          developers automatically review their code for bugs, bad practices,
-          and performance issues using AI-powered analysis. It offers feedback,
-          suggestions, and even refactoring tips—acting like a virtual senior
-          developer reviewing your pull requests.
-        </>
-      ),
-    },
+    // {
+    //   title: "Codemate",
+    //   img: "/assets/codemate.jpg",
+    //   code: "https://github.com/mohd-hassan17/code-reviewer",
+    //   link: "https://codemate-dun.vercel.app/",
+    //   tech: ["Next.js", "TypeScript", "openAI", "Reactjs", "Appwrite"],
+    //   desc: "Codemate is a AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices, and performances.",
+    //   modal: (
+    //     <>
+    //       Codemate is a AI Code Reviewer is an intelligent tool that helps
+    //       developers automatically review their code for bugs, bad practices,
+    //       and performance issues using AI-powered analysis. It offers feedback,
+    //       suggestions, and even refactoring tips—acting like a virtual senior
+    //       developer reviewing your pull requests.
+    //     </>
+    //   ),
+    // },
   ];
 
   return (
