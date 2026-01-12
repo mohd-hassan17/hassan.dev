@@ -4,17 +4,17 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './header.css';
 
 
 const Header = () => {
 
-  const handleUnavailableCV = (e: React.MouseEvent) => {
-    e.preventDefault(); // prevent actual download
-    toast.error('CV is currently not available');
-  };
+  // const handleUnavailableCV = (e: React.MouseEvent) => {
+  //   e.preventDefault(); // prevent actual download
+  //   toast.error('CV is currently not available');
+  // };
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
