@@ -81,13 +81,15 @@ const Header = () => {
         {/* Desktop CV Button */}
         <div className="nav-buttons desktop-cv">
           <a
-            href="/Resume.pdf"
-            // target="_blank"
-             onClick={handleUnavailableCV}
+            href="https://docs.google.com/document/d/1qQnnWmJrpgIlplhOJdJdMWJYDwuc-zu645g9qteKTe0/edit?usp=drive_link"
+            target="_blank"
+            //  onClick={handleUnavailableCV}
             rel="noopener noreferrer"
             className="nav-contact"
           >
+            <button className="">
             View CV
+              </button>
           </a>
         </div>
 
@@ -137,10 +139,14 @@ const Header = () => {
   </li>
   <li className="mobile-cv">
     <a
-      onClick={handleUnavailableCV}
+     href="https://docs.google.com/document/d/1qQnnWmJrpgIlplhOJdJdMWJYDwuc-zu645g9qteKTe0/edit?usp=drive_link"
+      target="_blank"
+      // onClick={handleUnavailableCV}
       className="nav-contact"
     >
+      <button className="">
       View CV
+        </ button>
     </a>
   </li>
 </ul>
