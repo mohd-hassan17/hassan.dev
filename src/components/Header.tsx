@@ -81,7 +81,7 @@ const Header = () => {
         {/* Desktop CV Button */}
         <div className="nav-buttons desktop-cv">
           <a
-            href="https://docs.google.com/document/d/1rTo086E78ki5lXeI-RQunYtQBU9vV5Q1rogEdaPY5as/edit?usp=drive_link"
+            href="https://docs.google.com/document/d/1qQnnWmJrpgIlplhOJdJdMWJYDwuc-zu645g9qteKTe0/edit?usp=drive_link"
             target="_blank"
             //  onClick={handleUnavailableCV}
             rel="noopener noreferrer"
@@ -139,7 +139,7 @@ const Header = () => {
   </li>
   <li className="mobile-cv">
     <a
-     href="https://docs.google.com/document/d/1rTo086E78ki5lXeI-RQunYtQBU9vV5Q1rogEdaPY5as/edit?usp=drive_link"
+     href="https://docs.google.com/document/d/1qQnnWmJrpgIlplhOJdJdMWJYDwuc-zu645g9qteKTe0/edit?usp=drive_link"
       target="_blank"
       // onClick={handleUnavailableCV}
       className="nav-contact"
