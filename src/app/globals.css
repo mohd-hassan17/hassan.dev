@@ -58,7 +58,7 @@ ul {
   width: 90%;
   max-width: 1180px;
   margin: 18px auto;
-  margin-bottom: 48px;
+  margin-bottom: 22px;
 }
 .profile-grid-box {
   display: grid;
@@ -93,12 +93,13 @@ ul {
   margin: 15px 0px;
   font-size: 0.95rem;
   line-height: 1.6rem;
+  opacity: 0.8;
   width: 100%;            /* ✅ take full width available */
 }
 @media (min-width: 1024px) {
   .profile-box-text p {
     font-size: 1rem;
-    line-height: 1.8rem;
+    line-height: 1.7rem;
     padding-right: 50px;  /* only apply on large */
   }
 }
