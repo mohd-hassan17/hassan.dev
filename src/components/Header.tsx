@@ -5,9 +5,7 @@ import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { ToastContainer } from 'react-toastify';
-// @ts-ignore
 import 'react-toastify/dist/ReactToastify.css';
-// @ts-ignore
 import './header.css';
 
 
