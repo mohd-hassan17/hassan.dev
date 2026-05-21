@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import ContactSection from "@/components/Contact";
 
 
+
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600', '700'], // Add weights you need
