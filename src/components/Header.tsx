@@ -5,7 +5,9 @@ import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { ToastContainer } from 'react-toastify';
+// @ts-ignore
 import 'react-toastify/dist/ReactToastify.css';
+// @ts-ignore
 import './header.css';
 
 
@@ -139,9 +141,9 @@ const Header = () => {
   </li>
   <li className="mobile-cv">
     <a
-     href="https://drive.google.com/file/d/1zIVWY6A8OmJ8_0HyUPDMcC1DjJPPwPwt/view?usp=drive_link"
+     href="https://drive.google.com/file/d/1hNM8ovfpIgypxIWBDGKJKukKaP9kZbBU/view?usp=sharing"
       target="_blank"
-      // onClick={handleUnavailableCV}
+      // onClick={handleUnavailableCV}  https://drive.google.com/file/d/1zIVWY6A8OmJ8_0HyUPDMcC1DjJPPwPwt/view?usp=drive_link
       className="nav-contact"
     >
       <button className="">
