@@ -13,12 +13,23 @@ export const Showcase = () => {
       img: "/assets/askcortex.jpg",
       code: "https://github.com/mohd-hassan17/AskCortex",
       link: "https://askcortex.vercel.app/",
-      tech: ["Next.js", "Reactjs", "TypeScript", "Tanstack", "ShadcnUI", "PostgreSQL", "Vercel AI SDK", "OpenRouter"],
+      tech: [
+        "Next.js",
+        "Reactjs",
+        "TypeScript",
+        "Tanstack",
+        "ShadcnUI",
+        "PostgreSQL",
+        "Vercel AI SDK",
+        "OpenRouter",
+      ],
       desc: "AskCortex is a AI-powered chat platform with web search, enabling conversations across 30+ LLMs with model switching and context-aware responses.",
       modal: (
         <>
-          AskCortex is a AI-powered chat platform with web search, enabling conversations across 30+ LLMs with model switching and context-aware responses.
-          Implemented RAG pipelines and streaming responses using Vercel AI SDK and OpenRouter for low-latency multi-model querying.
+          AskCortex is a AI-powered chat platform with web search, enabling
+          conversations across 30+ LLMs with model switching and context-aware
+          responses. Implemented RAG pipelines and streaming responses using
+          Vercel AI SDK and OpenRouter for low-latency multi-model querying.
         </>
       ),
     },
@@ -107,6 +118,26 @@ export const Showcase = () => {
       ),
     },
     {
+      title: "Darkroom Image Editor",
+      img: "/assets/codemate.jpg",
+      code: "https://github.com/mohd-hassan17/Darkroom-image-editor",
+      link: "https://darkroom-rosy.vercel.app/",
+      tech: ["Next.js", "TypeScript", "React.js", "Fabric.js", "Tailwind CSS"],
+      desc: "A browser-based image editor built with Next.js and Fabric.js, featuring image upload, drawing, cropping, rotation, annotations, and client-side image export.",
+
+      modal: (
+        <>
+          A modern browser-based image editor built with Next.js, TypeScript,
+          and Fabric.js. It enables users to upload images, draw and annotate,
+          crop, rotate, resize, and perform common editing operations directly
+          in the browser. The application leverages Fabric.js for canvas
+          manipulation and Tailwind CSS for a clean, responsive interface,
+          allowing edited images to be exported without requiring any backend
+          services.
+        </>
+      ),
+    },
+    {
       title: "Brainwave",
       img: "/gallery/brainwave.webp",
       code: "https://github.com/mohd-hassan17/",
@@ -138,38 +169,20 @@ export const Showcase = () => {
         </>
       ),
     },
-    {
-      title: "Klimate",
-      img: "/assets/klimate.jpg",
-      code: "https://github.com/mohd-hassan17/Klimate",
-      link: "https://klimate-wine.vercel.app/",
-      tech: ["Next.js", "Reactjs", "TypeScript", "TanStack"],
-      desc: "Klimate is ideal for users who want a minimalistic, fast, and reliable weather app that instantly adapts to their location without manual input.",
-      modal: (
-        <>
-          Klimate is a modern, responsive weather application that delivers
-          accurate, real-time weather updates based on the user’s current
-          location. Built using TanStack Query (React Query) for efficient data
-          fetching and caching, Klimate focuses on speed, usability, and clean
-          UI.
-        </>
-      ),
-    },
-
     // {
-    //   title: "Codemate",
-    //   img: "/assets/codemate.jpg",
-    //   code: "https://github.com/mohd-hassan17/code-reviewer",
-    //   link: "https://codemate-dun.vercel.app/",
-    //   tech: ["Next.js", "TypeScript", "openAI", "Reactjs", "Appwrite"],
-    //   desc: "Codemate is a AI Code Reviewer is an intelligent tool that helps developers automatically review their code for bugs, bad practices, and performances.",
+    //   title: "Klimate",
+    //   img: "/assets/klimate.jpg",
+    //   code: "https://github.com/mohd-hassan17/Klimate",
+    //   link: "https://klimate-wine.vercel.app/",
+    //   tech: ["Next.js", "Reactjs", "TypeScript", "TanStack"],
+    //   desc: "Klimate is ideal for users who want a minimalistic, fast, and reliable weather app that instantly adapts to their location without manual input.",
     //   modal: (
     //     <>
-    //       Codemate is a AI Code Reviewer is an intelligent tool that helps
-    //       developers automatically review their code for bugs, bad practices,
-    //       and performance issues using AI-powered analysis. It offers feedback,
-    //       suggestions, and even refactoring tips—acting like a virtual senior
-    //       developer reviewing your pull requests.
+    //       Klimate is a modern, responsive weather application that delivers
+    //       accurate, real-time weather updates based on the user’s current
+    //       location. Built using TanStack Query (React Query) for efficient data
+    //       fetching and caching, Klimate focuses on speed, usability, and clean
+    //       UI.
     //     </>
     //   ),
     // },
