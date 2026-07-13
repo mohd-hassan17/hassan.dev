@@ -119,7 +119,7 @@ export const Showcase = () => {
     },
     {
       title: "Darkroom Image Editor",
-      img: "/assets/codemate.jpg",
+      img: "/assets/darkroom.jpg",
       code: "https://github.com/mohd-hassan17/Darkroom-image-editor",
       link: "https://darkroom-rosy.vercel.app/",
       tech: ["Next.js", "TypeScript", "React.js", "Fabric.js", "Tailwind CSS"],
