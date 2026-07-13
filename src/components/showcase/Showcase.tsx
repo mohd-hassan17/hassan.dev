@@ -11,7 +11,7 @@ export const Showcase = () => {
     {
       title: "AskCortex",
       img: "/assets/askcortex.jpg",
-      code: "https://github.com/mohd-hassan17/",
+      code: "https://github.com/mohd-hassan17/AskCortex",
       link: "https://askcortex.vercel.app/",
       tech: ["Next.js", "Reactjs", "TypeScript", "Tanstack", "ShadcnUI", "PostgreSQL", "Vercel AI SDK", "OpenRouter"],
       desc: "AskCortex is a AI-powered chat platform with web search, enabling conversations across 30+ LLMs with model switching and context-aware responses.",
@@ -61,7 +61,7 @@ export const Showcase = () => {
     {
       title: "Snippet Master",
       img: "/assets/snippetmaster.png",
-      code: "https://github.com/mohd-hassan17/",
+      code: "https://github.com/mohd-hassan17/snippetmaster",
       link: "https://snippetmaster.vercel.app/",
       tech: ["Next.js", "React.js", "TypeScript", "MongoDB", "TailwindCSS"],
       desc: "Snippet Master is a code snippet management app that allows developers to save, organize, and quickly access reusable code snippets.",

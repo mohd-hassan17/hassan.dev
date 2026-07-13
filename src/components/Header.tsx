@@ -81,7 +81,7 @@ const Header = () => {
         {/* Desktop CV Button */}
         <div className="nav-buttons desktop-cv">
           <a
-            href="https://drive.google.com/file/d/1hNM8ovfpIgypxIWBDGKJKukKaP9kZbBU/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TGT8c_sucF8oRzGd67hzuYVo-w7xTwq_/view?usp=sharing"
             target="_blank"
             //  onClick={handleUnavailableCV}
             rel="noopener noreferrer"
